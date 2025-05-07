@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./assets/css/swiper.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Paragon Virtual Assitant</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="nav__bar">
+            <div class="nav__bar-container container">
+                <a class="nav__bar-logo" href="/">
+                    <span class="heading">Paragon</span>
+                    <span class="slogan">VA</span>
+                </a>
+                <div class="nav__bar-menu">
+                    <a href="#services" class="menu-item">Services</a>
+                    <a href="#pricing" class="menu-item">Pricing</a>
+                    <a href="#testimonials" class="menu-item">Testimonials</a>
+                    <a href="/blog" class="menu-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon">
+                            <path d="M12 7v14"></path>
+                            <path
+                                d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
+                            </path>
+                        </svg>
+                        Blog
+                    </a>
+                    <a href="#contact" class="menu-item">Contact</a>
+                    <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+                        <button class="cta-btn">
+                            Book a Call
+                        </button>
+                    </a>
+                </div>
+                <button class="nav__bar-menu-toggler">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-hamburger">
+                        <line x1="4" x2="20" y1="12" y2="12"></line>
+                        <line x1="4" x2="20" y1="6" y2="6"></line>
+                        <line x1="4" x2="20" y1="18" y2="18"></line>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="icon icon-x hidden">
+                        <path d="M18 6 6 18"></path>
+                        <path d="m6 6 12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <div class="nav__bar-menu-small-screen shadow">
+                <div class="nav-menu">
+                    <a href="#services" class="menu-item">Services</a>
+                    <a href="#pricing" class="menu-item">Pricing</a>
+                    <a href="#testimonials" class="menu-item">Testimonials</a>
+                    <a href="/blog" class="menu-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon">
+                            <path d="M12 7v14"></path>
+                            <path
+                                d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
+                            </path>
+                        </svg>Blog
+                    </a>
+                    <a href="#contact" class="menu-item">Contact</a>
+                    <a href="https://calendly.com" target="_blank" rel="noopener noreferrer" class="inline-block">
+                        <button
+                            class="cta-btn inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-10 px-4 py-2 bg-paragon-500 hover:bg-paragon-600 w-full">
+                            Book a Call
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+
+    <!-- main -->
+    <main>
+        <!-- hero -->
+        <section>
+            <div class="hero__wrapper relative pt-28 pb-20 md:pt-36 md:pb-32 overflow-hidden">
+                <div class="hero__bg"></div>
+                <div class="hero__bg-slide"></div>
+                <div class="hero__bg-top-circle"></div>
+                <div class="hero__bg-bottom-circle"></div>
+                <div class="hero__bg-right-circle"></div>
+                <div class="hero__container container">
+                    <div class="hero__content-container">
+                        <div class="hero__text-container">
+                            <h1 class="hero__text-heading">
+                                Grow Your Business with
+                                <span class="text-gradient">Paragon</span>
+                                Virtual Assistants
+                            </h1>
+                            <p class="hero__text-desc">
+                                Reliable, professional, and scalable VA services for entrepreneurs, small businesses, and e-commerce brands.
+                            </p>
+                            <div class="hero__text-list">
+                                <ul class="hero__list">
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                            <path d="m9 11 3 3L22 4"></path>
+                                        </svg>
+                                        <span>Save 20+ hours per week</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                            <path d="m9 11 3 3L22 4"></path>
+                                        </svg>
+                                        <span>Scale your business faster</span>
+                                    </li>
+                                    <li>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="check-icon">
+                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+                                            <path d="m9 11 3 3L22 4"></path>
+                                        </svg>
+                                        <span>Reduce operational costs</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hero__btn-wrapper">
+                                <a href="#contact">
+                                    <button class="hero-btn-1">
+                                        Get Started
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                            stroke-linecap="round" stroke-linejoin="round" class="btn-icon">
+                                            <path d="M5 12h14"></path>
+                                            <path d="m12 5 7 7-7 7"></path>
+                                        </svg>
+                                    </button>
+                                </a>
+                                <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+                                    <button class="hero-btn-2">
+                                        Book a Free Discovery Call
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hero__img-container">
+                            <div class="hero__img-wrapper">
+                                <div class="hero__img-circle"></div>
+                                <div class="hero__main-img">
+                                    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                                        alt="Professional virtual assistant">
+                                </div>
+                                <div class="img-bottom-circle"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end hero -->
+
+        <!-- services -->
+        <section id="services" class="services__section section-padding">
+            <div class="container services__container">
+                <div class="services__main-text">
+                    <h2 class="main-heading">
+                        Our Services
+                    </h2>
+                    <p class="desc">
+                        Comprehensive support tailored to your business needs
+                    </p>
+                </div>
+                <div class="services__counter">
+                    <div class="counter__line">
+                        <div class="line"></div>
+                    </div>
+                    <div class="services__counter-wrapper">
+                        <div class="counter-item">
+                            <div class="counter-box">
+                                <div class="count">1</div>
+                            </div>
+                        </div>
+                        <div class="counter-item">
+                            <div class="counter-box">
+                                <div class="count">2</div>
+                            </div>
+                        </div>
+                        <div class="counter-item">
+                            <div class="counter-box">
+                                <div class="count">3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__card-wrapper">
+                    <div class="services__card">
+                        <div class="card-header">
+                            <div class="svg-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="icon">
+                                    <circle cx="8" cy="21" r="1"></circle>
+                                    <circle cx="19" cy="21" r="1"></circle>
+                                    <path
+                                        d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12">
+                                    </path>
+                                </svg>
+                            </div>
+                            <h3 class="heading">E-commerce Support</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="desc">
+                                Product listings, order tracking, returns, customer support, and platform management (Shopify, Etsy, Amazon).
+                            </p>
+                            <ul class="list space-y-2">
+                                <li class="list-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg>
+                                    <span>Product listings optimization</span>
+                                </li>
+                                <li class="list-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg>
+                                    <span>Inventory management</span>
+                                </li>
+                                <li class="list-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg>
+                                    <span>Customer service</span>
+                                </li>
+                                <li class="list-item">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg>
+                                    <span>Order fulfillment</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="services__card">
+                        <div class="card-header">
+                            <div class="svg-container">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="icon">
+                                    <rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect>
+                                    <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2">
+                                    </path>
+                                    <path d="m9 14 2 2 4-4"></path>
+                                </svg>
+                            </div>
+                            <h3 class="heading">Executive Assistance</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="desc">Inbox and calendar management, travel booking, document organization, and
+                                administrative support.</p>
+                            <ul class="list">
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg><span>Calendar management</span></li>
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg><span>Email coordination</span></li>
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg><span>Travel arrangements</span></li>
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg><span>Administrative tasks</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="services__card">
+                        <div class="card-header">
+                            <div class="svg-container"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                                </svg></div>
+                            <h3 class="heading">Social Media Management</h3>
+                        </div>
+                        <div class="card-body">
+                            <p class="desc">Scheduling content, community engagement, analytics, and growth strategy on
+                                major platforms.</p>
+                            <ul class="list">
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg><span>Strategic content creation</span></li>
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg><span>Community engagement</span></li>
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg><span>Analytics reporting</span></li>
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <path d="m9 12 2 2 4-4"></path>
+                                    </svg><span>Cross-platform management</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="cta__container">
+                    <div class="cta__wrapper">
+                        <div class="cta__text-wrapper">
+                            <h3 class="heading">How We Work With You</h3>
+                            <p class="desc">Our seamless onboarding process ensures we understand your
+                                business needs and match you with the perfect virtual assistant. We integrate with your
+                                existing workflows and tools to provide maximum value with minimum disruption.</p>
+                            <a href="#contact" class="link">Learn more about
+                                our process →</a>
+                        </div>
+                        <div class="cta__img-wrapper h-64 md:h-auto"><img
+                                src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                                alt="Team collaboration"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end services -->
+
+        <!-- pricing -->
+        <section id="pricing" class="pricing__section section-padding">
+            <div class="pricing__contianer container">
+                <div class="pricing__main-text">
+                    <h2 class="heading">Pricing Plans</h2>
+                    <p class="desc">Choose the plan that fits your business needs</p>
+                </div>
+                <div class="pricing__card-wrapper">
+                    <div class="pricing__card-regular">
+                        <div class="card-header">
+                            <div class="card-title"><span>🔹</span>
+                                <h3 class="text">Starter</h3>
+                            </div>
+                            <div class="price"><span class="text">$499</span><span
+                                    class="duration text-gray-500 ml-1">/mo</span></div>
+                            <p class="card-details">Perfect for solopreneurs and small teams</p>
+                            <a href="#contact"><button class="card-btn">Get
+                                    Started</button></a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card__list-title">What's included:</p>
+                            <ul class="card-list">
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg><span class="text">20 hours of VA support</span></li>
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg><span class="text">Email & calendar management</span></li>
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg><span class="text">Weekly task summary</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pricing__card-regular pricing__card-popular">
+                        <div class="card-header">
+                            <div class="card-title"><span>🟡</span>
+                                <h3 class="text">Growth</h3><span class="popular-text">Most
+                                    Popular</span>
+                            </div>
+                            <div class="price"><span class="text">$899</span><span class="duraction">/mo</span></div>
+                            <p class="card-details">For growing teams and business owners</p><a href="#contact"><button
+                                    class="card-btn">Get
+                                    Started</button></a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card__list-title">What's included:</p>
+                            <ul class="card-list">
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg><span class="text">40 hours of VA support</span></li>
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg><span class="text">Dedicated account manager</span></li>
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg><span class="text">Project & social media support</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="pricing__card-regular">
+                        <div class="card-header">
+                            <div class="card-title"><span>🔴</span>
+                                <h3 class="text">Pro</h3>
+                            </div>
+                            <div class="price"><span class="text">$1,499</span><span class="duraction">/mo</span></div>
+                            <p class="card-details">Full-service support for scaling businesses</p>
+                            <a href="#contact"><button class="card-btn">Get
+                                    Started</button></a>
+                        </div>
+                        <div class="card-body">
+                            <p class="card__list-title">What's included:</p>
+                            <ul class="card-list">
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg><span class="text">80+ hours of VA support</span></li>
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg><span class="text">Multiple VA specialists</span>
+                                </li>
+                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                        <path d="M20 6 9 17l-5-5"></path>
+                                    </svg><span class="text">Advanced task automation & reporting</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end pricing -->
+
+        <!-- testimonials -->
+        <section id="testimonials" class="testimonial__section section-padding">
+            <div class="testimonial__container container">
+                <div class="main__text-container">
+                    <h2 class="heading">What Our Clients Say</h2>
+                    <p class="desc">Don't take our word for it — see what our clients have to say about
+                        our services</p>
+                </div>
+                <div class="content__container">
+                    <div class="testimonials__wrapper">
+                        <div class="header">
+                            <div class="text">"</div>
+                        </div>
+                        <div class="swiper testimonial-swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="stars mb-8 flex justify-center">
+                                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg></div>
+                                    </div>
+                                    <p class="review">Paragon VAs saved me 15 hours a week. I finally have time to focus on growing my business.</p>
+                                    <div class="author-dets"><span class="short-name-contianer"><span>SJ</span></span>
+                                        <div class="name-container">
+                                            <p class="name">Sarah J.</p>
+                                            <p class="occupation">Online Store Owner</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="stars mb-8 flex justify-center">
+                                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg></div>
+                                    </div>
+                                    <p class="review">Working with Paragon was a game-changer. My inbox and calendar are finally under control, and I have more time to focus on sales.</p>
+                                    <div class="author-dets"><span class="short-name-contianer"><span>KL</span></span>
+                                        <div class="name-container">
+                                            <p class="name">Kevin L.</p>
+                                            <p class="occupation">SaaS Founder</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="stars mb-8 flex justify-center">
+                                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="icon">
+                                                <path
+                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+                                                </path>
+                                            </svg></div>
+                                    </div>
+                                    <p class="review">Paragon’s team seamlessly integrated into our workflow, bringing efficiency and professionalism that exceeded our expectations.</p>
+                                    <div class="author-dets"><span class="short-name-contianer"><span>ST</span></span>
+                                        <div class="name-container">
+                                            <p class="name">Sarah T.</p>
+                                            <p class="occupation">Marketing Consultant</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial__nav-container">
+                            <div class="testimonial__nav-wrapper">
+                                <button class="swiper-next-slide nav-btn" aria-label="Previous testimonial"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="icon">
+                                        <path d="m15 18-6-6 6-6"></path>
+                                    </svg>
+                                </button>
+                                <button class="swiper-prev-slide nav-btn" aria-label="Next testimonial"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" class="icon">
+                                        <path d="m9 18 6-6-6-6"></path>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end testimonials -->
+
+        <!-- faqs -->
+        <section id="faq" class="section-padding">
+            <div class="faq__container container">
+                <div class="main__text-container">
+                    <h2 class="heading">Frequently Asked Questions</h2>
+                    <p class="desc">Everything you need to know about our virtual assistant services
+                    </p>
+                </div>
+                <div class="faq__content-container">
+                    <div class="faqs__container">
+                        <div class="faqs__container-inner">
+                            <div class="faqs__wrapper" data-orientation="vertical">
+                                <div data-orientation="vertical" class="faq">
+                                    <h3 data-orientation="vertical" class="title"><button type="button"
+                                            aria-expanded="false" data-orientation="vertical" class="toggler">
+                                            <div class="question-box"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="icon">
+                                                    <circle cx="12" cy="12" r="10"></circle>
+                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                                    <path d="M12 17h.01"></path>
+                                                </svg><span>What exactly does a virtual assistant do?</span>
+                                            </div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" class="down-chevron">
+                                                <path d="m6 9 6 6 6-6"></path>
+                                            </svg>
+                                        </button>
+                                    </h3>
+                                    <div data-state="open" id="radix-:r1:" role="region" aria-labelledby="radix-:r0:"
+                                        data-orientation="vertical" class="answer-box">
+                                        <div class="faq-content">Our virtual assistants handle a wide
+                                            range of administrative, creative, and technical tasks remotely. This
+                                            includes email management, calendar scheduling, customer service, social
+                                            media management, research, data entry, and more—allowing you to focus on
+                                            growing your business.</div>
+                                    </div>
+                                </div>
+                                <div data-orientation="vertical" class="faq">
+                                    <h3 data-orientation="vertical" class="title"><button type="button"
+                                            aria-expanded="false" data-orientation="vertical" class="toggler"
+                                            data-radix-collection-item="">
+                                            <div class="question-box"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="icon">
+                                                    <circle cx="12" cy="12" r="10"></circle>
+                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                                    <path d="M12 17h.01"></path>
+                                                </svg><span>How do I communicate with my virtual assistant?</span></div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" class="down-chevron">
+                                                <path d="m6 9 6 6 6-6"></path>
+                                            </svg>
+                                        </button></h3>
+                                    <div data-orientation="vertical" class="answer-box">
+                                        <div class="faq-content">
+                                            Communication happens through your preferred channels—email, Slack,
+                                            Microsoft Teams, Zoom, or any project management tool you use. We adapt to
+                                            your existing workflows to make the transition seamless.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-orientation="vertical" class="faq">
+                                    <h3 data-orientation="vertical" class="title"><button type="button"
+                                            aria-expanded="false" data-orientation="vertical" class="toggler"
+                                            data-radix-collection-item="">
+                                            <div class="question-box"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="icon">
+                                                    <circle cx="12" cy="12" r="10"></circle>
+                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                                    <path d="M12 17h.01"></path>
+                                                </svg><span>What if I need assistance outside of regular business
+                                                    hours?</span></div><svg xmlns="http://www.w3.org/2000/svg"
+                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                stroke-linejoin="round" class="down-chevron">
+                                                <path d="m6 9 6 6 6-6"></path>
+                                            </svg>
+                                        </button></h3>
+                                    <div data-orientation="vertical" class="answer-box">
+                                        <div class="faq-content">
+                                            Our Growth and Pro plans include extended support hours. For specific
+                                            time-sensitive needs, we can arrange special coverage—just let us know your
+                                            requirements during onboarding.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-orientation="vertical" class="faq">
+                                    <h3 data-orientation="vertical" data-state="closed" class="title"><button
+                                            type="button" aria-expanded="false" data-orientation="vertical"
+                                            class="toggler" data-radix-collection-item="">
+                                            <div class="question-box"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="icon">
+                                                    <circle cx="12" cy="12" r="10"></circle>
+                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                                    <path d="M12 17h.01"></path>
+                                                </svg><span>How do you ensure quality and consistency?</span></div><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" class="down-chevron">
+                                                <path d="m6 9 6 6 6-6"></path>
+                                            </svg>
+                                        </button></h3>
+                                    <div data-orientation="vertical" class="answer-box">
+                                        <div class="faq-content">
+                                            We have a rigorous selection process for our VAs, comprehensive training
+                                            programs, and quality assurance protocols. All work goes through review
+                                            processes, and we regularly collect feedback to maintain our high standards.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-orientation="vertical" class="faq">
+                                    <h3 data-orientation="vertical" data-state="closed" class="title"><button
+                                            type="button" aria-controls="radix-:r9:" aria-expanded="false"
+                                            data-state="closed" data-orientation="vertical" id="radix-:r8:"
+                                            class="toggler" data-radix-collection-item="">
+                                            <div class="question-box"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="icon">
+                                                    <circle cx="12" cy="12" r="10"></circle>
+                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                                    <path d="M12 17h.01"></path>
+                                                </svg><span>What if my assigned VA isn't the right fit?</span></div><svg
+                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" class="down-chevron">
+                                                <path d="m6 9 6 6 6-6"></path>
+                                            </svg>
+                                        </button></h3>
+                                    <div data-orientation="vertical" class="answer-box">
+                                        <div class="faq-content">
+                                            We want you to be completely satisfied with your VA. If you feel your
+                                            current assistant isn't the right match, we'll find a replacement at no
+                                            additional cost during the first 30 days of service.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-orientation="vertical" class="faq">
+                                    <h3 data-orientation="vertical" data-state="closed" class="title"><button
+                                            type="button" aria-controls="radix-:rb:" aria-expanded="false"
+                                            data-state="closed" data-orientation="vertical" id="radix-:ra:"
+                                            class="toggler" data-radix-collection-item="">
+                                            <div class="question-box"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                                    class="icon">
+                                                    <circle cx="12" cy="12" r="10"></circle>
+                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                                                    <path d="M12 17h.01"></path>
+                                                </svg><span>Can I increase or decrease my hours as needed?</span></div>
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                                stroke-linecap="round" stroke-linejoin="round" class="down-chevron">
+                                                <path d="m6 9 6 6 6-6"></path>
+                                            </svg>
+                                        </button></h3>
+                                    <div data-orientation="vertical" class="answer-box">
+                                        <div class="faq-content">
+                                            Absolutely! We understand business needs fluctuate. You can adjust your plan
+                                            monthly, scaling up during busy periods or scaling down when things are
+                                            quieter.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="help__text-container">
+                    <p class="text">Have more questions? We're here to help!</p><a href="#contact" class="link">Contact
+                        us for more information</a>
+                </div>
+            </div>
+        </section>
+        <!-- end faqs -->
+
+        <!-- contact -->
+        <section id="contact" class="section-padding contact__section">
+            <div class="contact__container container">
+                <div class="main__text-container">
+                    <h2 class="heading">Ready to Delegate and Scale?</h2>
+                    <p class="desc">
+                        Book a free discovery call today and learn how Paragon Virtual Assistants can support your goals.
+                    </p>
+                </div>
+                <div class="box__wrapper">
+                    <div class="contact__box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="icon">
+                            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                        </svg>
+                        <h3 class="heading">Contact Us</h3>
+                        <p class="desc">Fill out our quick form and we'll get back to you within 24 hours
+                            to discuss your needs.</p>
+                        <p class="desc"><a href="mailto:info@hireparagonva.com"
+                                class="text-paragon-400 hover:text-white transition-colors">info@hireparagonva.com</a>
+                        </p>
+                        <a href="https://tally.so/" target="_blank" rel="noopener noreferrer" class="btn">
+                            Contact Form
+                        </a>
+                    </div>
+                    <div class="contact__box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="icon">
+                            <path d="M8 2v4"></path>
+                            <path d="M16 2v4"></path>
+                            <rect width="18" height="18" x="3" y="4" rx="2"></rect>
+                            <path d="M3 10h18"></path>
+                        </svg>
+                        <h3 class="heading">Schedule My Call</h3>
+                        <p class="desc">Schedule a 15-minute call with our team to explore how we can help
+                            your business.
+                        </p>
+                        <a href="https://calendly.com" target="_blank" rel="noopener noreferrer" class="btn">Book on
+                            Calendly</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact -->
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer__container container">
+                <div class="footer__wrapper">
+                    <div class="branding__wrapper">
+                        <div class="footer__logo-wrapper">
+                            <span class="logo">Paragon</span>
+                            <span class="slogan">VA</span>
+                        </div>
+                        <p class="branding-text">Professional virtual assistance services tailored to help
+                            your business grow and succeed.</p>
+                        <div class="mail-field">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="icon">
+                                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                            </svg>
+                            <a href="mailto:info@hireparagonva.com"
+                                class="address text-gray-400 hover:text-white transition-colors">info@hireparagonva.com</a>
+                        </div>
+                        <div class="social-icons-wrapper">
+                            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                                class="social-icon" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg"
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                                </svg>
+                            </a>
+                            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon"
+                                aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                    <path
+                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                    </path>
+                                    <rect width="4" height="12" x="2" y="9"></rect>
+                                    <circle cx="4" cy="4" r="2"></circle>
+                                </svg>
+                            </a>
+                            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="social-icon"
+                                aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                    stroke-linecap="round" stroke-linejoin="round" class="icon">
+                                    <path
+                                        d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__nav-links">
+                        <h3 class="heading">Services</h3>
+                        <ul class="list">
+                            <li><a href="#services" class="list-item">E-commerce
+                                    Support</a></li>
+                            <li><a href="#services" class="list-item">Executive
+                                    Assistance</a></li>
+                            <li><a href="#services" class="list-item">Social
+                                    Media Management</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer__nav-links">
+                        <h3 class="heading">Quick Links</h3>
+                        <ul class="list">
+                            <li><a href="#about" class="list-item">About</a></li>
+                            <li><a href="#pricing" class="list-item">Pricing</a>
+                            </li>
+                            <li><a href="#testimonials" class="list-item">Testimonials</a></li>
+                            <li><a href="#contact" class="list-item">Contact</a>
+                            </li>
+                            <li><a href="https://calendly.com" target="_blank" rel="noopener noreferrer"
+                                    class="list-item">Book a Call</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright__text">
+                    <p>© 2025 Paragon Virtual Assistants. All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer -->
+    </main>
+    <!-- end main -->
+
+    <!-- scripts -->
+     <script defer src="./assets/js/swiper.min.js"></script>
+    <script defer src="./assets/js/main.js"></script>
+</body>
+
+</html>
