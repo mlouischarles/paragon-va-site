@@ -948,6 +948,12 @@ html {
     margin-bottom: 16px;
 }
 
+.testimonials__wrapper .author-dets .short-name-contianer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .testimonials__wrapper .author-dets .short-name-contianer span {
     display: flex;
     height: 100%;
