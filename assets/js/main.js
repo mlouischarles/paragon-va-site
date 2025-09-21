@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const menu = document.querySelector(".nav__bar-menu-small-screen");
   const navBar = document.querySelector(".nav__bar");
   const faqMap = document.querySelectorAll(".faq");
-  const formId = "w2dkbL";
 
   var swiper = new Swiper(".testimonial-swiper", {
     loop: true,
@@ -89,18 +88,5 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleFAQ(faq, faqId);
     });
   });
-
-  // Example: use callback functions to handle events
-  if (typeof Tally !== "undefined") {
-    Tally.openPopup('w2dkbL', {
-      layout: 'modal',
-      width: 700,
-      onSubmit: (payload) => {
-        window.open('https://your-redirect-url.com', '_blank');
-      }
-    }); 
-  } else {
-    console.error("Tally script not loaded yet.");
-  }
 
 });
