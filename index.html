@@ -380,13 +380,13 @@
         <!-- end services -->
 
         <!-- pricing -->
-        <section id="pricing" class="pricing-section" style="padding: 80px 0; background: #ffffff; font-family: Inter, sans-serif;">
+        <section id="pricing" class="pricing-section" style="padding: 80px 0; background: #ffffff; font-family: var(--font-primary);">
           <div class="container" style="max-width: 1200px; margin: auto; text-align: center;">
 
-            <h2 style="font-size: 42px; font-weight: 700; margin-bottom: 10px;">
+            <h2 style="font-size: 42px; font-weight: 700; margin-bottom: 10px; font-family: var(--font-secondary); color: var(--color-navy);">
               Simple, Transparent Pricing
             </h2>
-            <p style="font-size: 18px; color: #555; margin-bottom: 50px;">
+            <p style="font-size: 18px; color: var(--color-gray); margin-bottom: 50px;">
               Flexible monthly plans designed to scale with your business.
             </p>
 
@@ -396,15 +396,15 @@
 
               <!-- STARTER PLAN -->
               <div class="pricing-card"
-                   style="border: 1px solid #eee; border-radius: 12px; padding: 40px; text-align: left;">
-                <h3 style="font-size: 28px; font-weight: 700;">Starter</h3>
-                <p style="font-size: 16px; color: #666;">Perfect for solopreneurs & early-stage businesses.</p>
+                   style="border: 1px solid #eee; border-radius: 12px; padding: 40px; text-align: left; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                <h3 style="font-size: 28px; font-weight: 700; font-family: var(--font-secondary); color: var(--color-navy);">Starter</h3>
+                <p style="font-size: 16px; color: var(--color-gray);">Perfect for solopreneurs & early-stage businesses.</p>
 
-                <div style="font-size: 40px; font-weight: 700; margin: 20px 0;">
-                  $499<span style="font-size: 18px; color:#666;">/month</span>
+                <div style="font-size: 40px; font-weight: 700; margin: 20px 0; color: var(--color-navy);">
+                  $499<span style="font-size: 18px; color: var(--color-gray);">/month</span>
                 </div>
 
-                <ul style="list-style: none; padding-left: 0; font-size: 15px; color: #444; line-height: 1.7;">
+                <ul style="list-style: none; padding-left: 0; font-size: 15px; color: var(--color-gray); line-height: 1.7;">
                   <li>✓ Dedicated Virtual Assistant</li>
                   <li>✓ Up to 20 hours per month</li>
                   <li>✓ Email + Task Management</li>
@@ -413,22 +413,24 @@
 
                 <a href="https://buy.stripe.com/cNi6oA7Gj8Dlebj6VL73G02" target="_blank" rel="noopener noreferrer"
                    style="display: inline-block; margin-top: 25px; padding: 12px 24px;
-                          background: #111; color: #fff; border-radius: 6px; text-decoration: none;">
+                          background: var(--color-primary); color: #fff; border-radius: 6px; text-decoration: none; transition: background 0.2s;"
+                   onmouseover="this.style.background='var(--color-accent)'"
+                   onmouseout="this.style.background='var(--color-primary)'">
                   Select Starter Plan
                 </a>
               </div>
 
               <!-- GROWTH PLAN -->
               <div class="pricing-card"
-                   style="border: 2px solid #111; border-radius: 12px; padding: 40px; background: #f8f8f8;">
-                <h3 style="font-size: 28px; font-weight: 700;">Growth</h3>
-                <p style="font-size: 16px; color: #666;">Our most popular plan for growing teams.</p>
+                   style="border: 2px solid var(--color-primary); border-radius: 12px; padding: 40px; background: rgba(37, 99, 235, 0.05); text-align: left; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);">
+                <h3 style="font-size: 28px; font-weight: 700; font-family: var(--font-secondary); color: var(--color-navy);">Growth</h3>
+                <p style="font-size: 16px; color: var(--color-gray);">Our most popular plan for growing teams.</p>
 
-                <div style="font-size: 40px; font-weight: 700; margin: 20px 0;">
-                  $899<span style="font-size: 18px; color:#666;">/month</span>
+                <div style="font-size: 40px; font-weight: 700; margin: 20px 0; color: var(--color-navy);">
+                  $899<span style="font-size: 18px; color: var(--color-gray);">/month</span>
                 </div>
 
-                <ul style="list-style: none; padding-left: 0; font-size: 15px; color: #444; line-height: 1.7;">
+                <ul style="list-style: none; padding-left: 0; font-size: 15px; color: var(--color-gray); line-height: 1.7;">
                   <li>✓ Dedicated VA (40 hours)</li>
                   <li>✓ Priority Support</li>
                   <li>✓ Admin + Operations Support</li>
@@ -437,22 +439,24 @@
 
                 <a href="https://buy.stripe.com/5kQ8wIf8L6vd4AJbc173G01" target="_blank" rel="noopener noreferrer"
                    style="display: inline-block; margin-top: 25px; padding: 12px 24px;
-                          background: #111; color: #fff; border-radius: 6px; text-decoration: none;">
+                          background: var(--color-primary); color: #fff; border-radius: 6px; text-decoration: none; transition: background 0.2s;"
+                   onmouseover="this.style.background='var(--color-accent)'"
+                   onmouseout="this.style.background='var(--color-primary)'">
                   Select Growth Plan
                 </a>
               </div>
 
               <!-- PRO PLAN -->
               <div class="pricing-card"
-                   style="border: 1px solid #eee; border-radius: 12px; padding: 40px; text-align: left;">
-                <h3 style="font-size: 28px; font-weight: 700;">Pro</h3>
-                <p style="font-size: 16px; color: #666;">For founders who need full operational support.</p>
+                   style="border: 1px solid #eee; border-radius: 12px; padding: 40px; text-align: left; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
+                <h3 style="font-size: 28px; font-weight: 700; font-family: var(--font-secondary); color: var(--color-navy);">Pro</h3>
+                <p style="font-size: 16px; color: var(--color-gray);">For founders who need full operational support.</p>
 
-                <div style="font-size: 40px; font-weight: 700; margin: 20px 0;">
-                  $1,499<span style="font-size: 18px; color:#666;">/month</span>
+                <div style="font-size: 40px; font-weight: 700; margin: 20px 0; color: var(--color-navy);">
+                  $1,499<span style="font-size: 18px; color: var(--color-gray);">/month</span>
                 </div>
 
-                <ul style="list-style: none; padding-left: 0; font-size: 15px; color: #444; line-height: 1.7;">
+                <ul style="list-style: none; padding-left: 0; font-size: 15px; color: var(--color-gray); line-height: 1.7;">
                   <li>✓ Dedicated Full-Time VA (80 hours)</li>
                   <li>✓ Operations, Admin, Client Support</li>
                   <li>✓ KPI Dashboards + Weekly Reviews</li>
@@ -461,7 +465,9 @@
 
                 <a href="https://buy.stripe.com/cNi4gsgcP7zhaZ75RH73G00" target="_blank" rel="noopener noreferrer"
                    style="display: inline-block; margin-top: 25px; padding: 12px 24px;
-                          background: #111; color: #fff; border-radius: 6px; text-decoration: none;">
+                          background: var(--color-primary); color: #fff; border-radius: 6px; text-decoration: none; transition: background 0.2s;"
+                   onmouseover="this.style.background='var(--color-accent)'"
+                   onmouseout="this.style.background='var(--color-primary)'">
                   Select Pro Plan
                 </a>
               </div>
@@ -470,18 +476,20 @@
 
             <!-- ONBOARDING FEE -->
             <div style="margin-top: 60px; padding: 40px; background: #fafafa; border-radius: 12px;">
-              <h3 style="font-size: 26px; font-weight: 700;">One-Time Onboarding Fee</h3>
-              <p style="font-size: 16px; color: #555; max-width: 600px; margin: 10px auto;">
+              <h3 style="font-size: 26px; font-weight: 700; font-family: var(--font-secondary); color: var(--color-navy);">One-Time Onboarding Fee</h3>
+              <p style="font-size: 16px; color: var(--color-gray); max-width: 600px; margin: 10px auto;">
                 Includes VA matching, onboarding setup, workflows, kickoff call, and your customized success plan.
               </p>
-              <div style="font-size: 34px; font-weight: 700; margin: 15px 0;">
-                $250 <span style="font-size: 18px; color:#666;">one-time</span>
+              <div style="font-size: 34px; font-weight: 700; margin: 15px 0; color: var(--color-navy);">
+                $250 <span style="font-size: 18px; color: var(--color-gray);">one-time</span>
               </div>
 
               <a href="https://buy.stripe.com/bJecMYf8L6vd9V3eod73G04" target="_blank" rel="noopener noreferrer"
                  style="display: inline-block; padding: 12px 24px;
-                        background: #111; color: #fff; border-radius: 6px;
-                        text-decoration: none;">
+                        background: var(--color-primary); color: #fff; border-radius: 6px;
+                        text-decoration: none; transition: background 0.2s;"
+                 onmouseover="this.style.background='var(--color-accent)'"
+                 onmouseout="this.style.background='var(--color-primary)'">
                 Pay Onboarding Fee
               </a>
             </div>
