@@ -369,112 +369,282 @@
         <!-- end services -->
 
         <!-- pricing -->
-        <section id="pricing" class="pricing-section" style="padding: 80px 0; background: #ffffff; font-family: var(--font-primary);">
-          <div class="container" style="max-width: 1200px; margin: auto; text-align: center;">
-
-            <h2 style="font-size: 42px; font-weight: 700; margin-bottom: 10px; font-family: var(--font-secondary); color: var(--color-navy);">
-              Simple, Transparent Pricing
-            </h2>
-            <p style="font-size: 18px; color: var(--color-gray); margin-bottom: 50px;">
-              Flexible monthly plans designed to scale with your business.
-            </p>
-
-            <!-- PRICING GRID -->
-            <div class="pricing-grid"
-                 style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
-
-              <!-- STARTER PLAN -->
-              <div class="pricing-card"
-                   style="border: 1px solid #eee; border-radius: 12px; padding: 40px; text-align: left; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
-                <h3 style="font-size: 28px; font-weight: 700; font-family: var(--font-secondary); color: var(--color-navy);">Starter</h3>
-                <p style="font-size: 16px; color: var(--color-gray);">Perfect for solopreneurs & early-stage businesses.</p>
-
-                <div style="font-size: 40px; font-weight: 700; margin: 20px 0; color: var(--color-navy);">
-                  $499<span style="font-size: 18px; color: var(--color-gray);">/month</span>
-                </div>
-
-                <ul style="list-style: none; padding-left: 0; font-size: 15px; color: var(--color-gray); line-height: 1.7;">
-                  <li>✓ Dedicated Virtual Assistant</li>
-                  <li>✓ Up to 20 hours per month</li>
-                  <li>✓ Email + Task Management</li>
-                  <li>✓ Weekly Updates</li>
-                </ul>
-              </div>
-
-              <!-- GROWTH PLAN -->
-              <div class="pricing-card"
-                   style="border: 2px solid var(--color-primary); border-radius: 12px; padding: 40px; background: rgba(37, 99, 235, 0.05); text-align: left; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);">
-                <h3 style="font-size: 28px; font-weight: 700; font-family: var(--font-secondary); color: var(--color-navy);">Growth</h3>
-                <p style="font-size: 16px; color: var(--color-gray);">Our most popular plan for growing teams.</p>
-
-                <div style="font-size: 40px; font-weight: 700; margin: 20px 0; color: var(--color-navy);">
-                  $899<span style="font-size: 18px; color: var(--color-gray);">/month</span>
-                </div>
-
-                <ul style="list-style: none; padding-left: 0; font-size: 15px; color: var(--color-gray); line-height: 1.7;">
-                  <li>✓ Dedicated VA (40 hours)</li>
-                  <li>✓ Priority Support</li>
-                  <li>✓ Admin + Operations Support</li>
-                  <li>✓ Weekly Reporting & KPIs</li>
-                </ul>
-              </div>
-
-              <!-- PRO PLAN -->
-              <div class="pricing-card"
-                   style="border: 1px solid #eee; border-radius: 12px; padding: 40px; text-align: left; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);">
-                <h3 style="font-size: 28px; font-weight: 700; font-family: var(--font-secondary); color: var(--color-navy);">Pro</h3>
-                <p style="font-size: 16px; color: var(--color-gray);">For founders who need full operational support.</p>
-
-                <div style="font-size: 40px; font-weight: 700; margin: 20px 0; color: var(--color-navy);">
-                  $1,499<span style="font-size: 18px; color: var(--color-gray);">/month</span>
-                </div>
-
-                <ul style="list-style: none; padding-left: 0; font-size: 15px; color: var(--color-gray); line-height: 1.7;">
-                  <li>✓ Dedicated Full-Time VA (80 hours)</li>
-                  <li>✓ Operations, Admin, Client Support</li>
-                  <li>✓ KPI Dashboards + Weekly Reviews</li>
-                  <li>✓ Priority Access to Add-Ons</li>
-                </ul>
-              </div>
-
+        <section id="pricing" aria-labelledby="pricing-title" style="padding: 72px 0; font-family: var(--font-primary);">
+          <div style="max-width: 1100px; margin: 0 auto; padding: 0 20px;">
+            <!-- Header -->
+            <div style="text-align: center; margin-bottom: 40px;">
+              <h2 id="pricing-title" style="font-size: 36px; line-height: 1.2; margin: 0 0 12px; font-weight: 800;">
+                Plans & Pricing
+              </h2>
+              <p style="margin: 0 auto; max-width: 720px; font-size: 16px; line-height: 1.6; opacity: 0.85;">
+                Get dedicated support without the hiring overhead. Choose the plan that matches your workload today — and scale up as needed.
+              </p>
+              <p style="margin: 12px 0 0; font-size: 14px; opacity: 0.75;">
+                Month-to-month. No long-term contracts.
+              </p>
             </div>
 
-            <!-- ONBOARDING FEE -->
-            <div style="margin-top: 60px; padding: 40px; background: #fafafa; border-radius: 12px;">
-              <h3 style="font-size: 26px; font-weight: 700; font-family: var(--font-secondary); color: var(--color-navy);">One-Time Onboarding Fee</h3>
+            <!-- Cards -->
+            <div
+              style="
+                display: grid;
+                gap: 18px;
+                grid-template-columns: repeat(1, minmax(0, 1fr));
+              "
+            >
+              <!-- Starter -->
+              <div
+                style="
+                  border: 1px solid rgba(0,0,0,0.12);
+                  border-radius: 16px;
+                  padding: 22px;
+                  background: #fff;
+                "
+              >
+                <div style="display:flex; align-items: baseline; justify-content: space-between; gap: 12px;">
+                  <h3 style="margin:0; font-size: 20px; font-weight: 800;">Starter</h3>
+                  <span style="font-size: 13px; opacity: 0.7;">40 hours / month</span>
+                </div>
 
-              <ul style="list-style: none; padding: 0; margin: 20px auto; max-width: 300px; text-align: left; color: var(--color-gray); font-size: 16px; line-height: 1.8;">
-                <li style="display: flex; align-items: center; gap: 8px;">
-                  <span style="color: var(--color-primary); font-size: 20px;">•</span> Custom VA matching & selection
-                </li>
-                <li style="display: flex; align-items: center; gap: 8px;">
-                  <span style="color: var(--color-primary); font-size: 20px;">•</span> Complete onboarding & setup
-                </li>
-                <li style="display: flex; align-items: center; gap: 8px;">
-                  <span style="color: var(--color-primary); font-size: 20px;">•</span> Workflow integration
-                </li>
-                <li style="display: flex; align-items: center; gap: 8px;">
-                  <span style="color: var(--color-primary); font-size: 20px;">•</span> Kickoff call & training
-                </li>
-                <li style="display: flex; align-items: center; gap: 8px;">
-                  <span style="color: var(--color-primary); font-size: 20px;">•</span> Personalized success plan
-                </li>
-              </ul>
+                <div style="margin-top: 10px; display:flex; align-items: baseline; gap: 10px;">
+                  <div style="font-size: 34px; font-weight: 900;">$1,200</div>
+                  <div style="font-size: 14px; opacity: 0.7;">/ month</div>
+                </div>
 
-              <div style="font-size: 34px; font-weight: 700; margin: 15px 0; color: var(--color-navy);">
-                $250 <span style="font-size: 18px; color: var(--color-gray);">one-time</span>
+                <p style="margin: 10px 0 0; font-size: 14px; line-height: 1.6; opacity: 0.85;">
+                  Structured, foundational support for founders who want consistent help with admin and recurring tasks.
+                </p>
+
+                <ul style="margin: 16px 0 0; padding-left: 18px; line-height: 1.8; font-size: 14px;">
+                  <li>Executive & admin support (SOP-driven)</li>
+                  <li>Inbox sorting + drafts (as directed)</li>
+                  <li>Calendar scheduling + confirmations</li>
+                  <li>Task coordination + follow-ups</li>
+                  <li>Research, data entry, CRM updates</li>
+                  <li>Paragon oversight + weekly check-ins</li>
+                </ul>
+
+                <p style="margin: 14px 0 0; font-size: 13px; opacity: 0.75;">
+                  Best for: repeatable tasks and steady support (not real-time / always-on).
+                </p>
+
+                <a
+                  href="#contact"
+                  style="
+                    display:inline-block;
+                    margin-top: 18px;
+                    padding: 12px 16px;
+                    border-radius: 12px;
+                    border: 1px solid rgba(0,0,0,0.15);
+                    text-decoration: none;
+                    font-weight: 700;
+                    color: inherit;
+                  "
+                >
+                  Get Started
+                </a>
               </div>
 
-              <a href="/payment.html"
-                 style="display: inline-block; padding: 12px 24px;
-                        background: transparent; border: 1px solid var(--color-primary); color: var(--color-primary); border-radius: 6px;
-                        text-decoration: none; transition: all 0.2s; font-weight: 500;"
-                 onmouseover="this.style.background='var(--color-primary)'; this.style.color='#fff'"
-                 onmouseout="this.style.background='transparent'; this.style.color='var(--color-primary)'">
-                Pay Onboarding Fee
+              <!-- Pro (Most Popular) -->
+              <div
+                style="
+                  border: 2px solid rgba(0,0,0,0.18);
+                  border-radius: 16px;
+                  padding: 22px;
+                  background: #fff;
+                  position: relative;
+                "
+              >
+                <div
+                  style="
+                    position:absolute;
+                    top: 14px;
+                    right: 14px;
+                    font-size: 12px;
+                    font-weight: 800;
+                    padding: 6px 10px;
+                    border-radius: 999px;
+                    border: 1px solid rgba(0,0,0,0.15);
+                    opacity: 0.9;
+                  "
+                >
+                  Most Popular
+                </div>
+
+                <div style="display:flex; align-items: baseline; justify-content: space-between; gap: 12px;">
+                  <h3 style="margin:0; font-size: 20px; font-weight: 800;">Pro</h3>
+                  <span style="font-size: 13px; opacity: 0.7;">80 hours / month</span>
+                </div>
+
+                <div style="margin-top: 10px; display:flex; align-items: baseline; gap: 10px;">
+                  <div style="font-size: 34px; font-weight: 900;">$2,400</div>
+                  <div style="font-size: 14px; opacity: 0.7;">/ month</div>
+                </div>
+
+                <p style="margin: 10px 0 0; font-size: 14px; line-height: 1.6; opacity: 0.85;">
+                  Consistent, dependable support for daily operations. Ideal when your assistant is part of your weekly rhythm.
+                </p>
+
+                <ul style="margin: 16px 0 0; padding-left: 18px; line-height: 1.8; font-size: 14px;">
+                  <li>Everything in Starter</li>
+                  <li>Higher availability for daily priorities</li>
+                  <li>Structured onboarding + workflow setup</li>
+                  <li>Continuity support and escalation path</li>
+                  <li>Performance oversight and feedback loop</li>
+                </ul>
+
+                <p style="margin: 14px 0 0; font-size: 13px; opacity: 0.75;">
+                  Best for: founders and teams who rely on their assistant day-to-day.
+                </p>
+
+                <a
+                  href="#contact"
+                  style="
+                    display:inline-block;
+                    margin-top: 18px;
+                    padding: 12px 16px;
+                    border-radius: 12px;
+                    border: 1px solid rgba(0,0,0,0.15);
+                    text-decoration: none;
+                    font-weight: 800;
+                    color: #fff;
+                    background: #111;
+                  "
+                >
+                  Book a Call
+                </a>
+              </div>
+
+              <!-- Priority -->
+              <div
+                style="
+                  border: 1px solid rgba(0,0,0,0.12);
+                  border-radius: 16px;
+                  padding: 22px;
+                  background: #fff;
+                "
+              >
+                <div style="display:flex; align-items: baseline; justify-content: space-between; gap: 12px;">
+                  <h3 style="margin:0; font-size: 20px; font-weight: 800;">Priority</h3>
+                  <span style="font-size: 13px; opacity: 0.7;">160 hours / month (full-time equivalent)</span>
+                </div>
+
+                <div style="margin-top: 10px; display:flex; align-items: baseline; gap: 10px;">
+                  <div style="font-size: 34px; font-weight: 900;">$3,900</div>
+                  <div style="font-size: 14px; opacity: 0.7;">/ month</div>
+                </div>
+
+                <p style="margin: 10px 0 0; font-size: 14px; line-height: 1.6; opacity: 0.85;">
+                  Full-time support for teams that want an embedded assistant without hiring in-house.
+                </p>
+
+                <ul style="margin: 16px 0 0; padding-left: 18px; line-height: 1.8; font-size: 14px;">
+                  <li>Everything in Pro</li>
+                  <li>Full-time coverage for operational leverage</li>
+                  <li>Priority handling and rapid issue resolution</li>
+                  <li>Ongoing performance oversight</li>
+                  <li>Scalable capacity planning as you grow</li>
+                </ul>
+
+                <p style="margin: 14px 0 0; font-size: 13px; opacity: 0.75;">
+                  Best for: founders ready for full operational leverage.
+                </p>
+
+                <a
+                  href="#contact"
+                  style="
+                    display:inline-block;
+                    margin-top: 18px;
+                    padding: 12px 16px;
+                    border-radius: 12px;
+                    border: 1px solid rgba(0,0,0,0.15);
+                    text-decoration: none;
+                    font-weight: 700;
+                    color: inherit;
+                  "
+                >
+                  Talk to Us
+                </a>
+              </div>
+            </div>
+
+            <!-- Responsive tweak (simple) -->
+            <style>
+              @media (min-width: 820px) {
+                #pricing > div > div:nth-child(2) {
+                  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+                }
+              }
+            </style>
+
+            <!-- Included + FAQ -->
+            <div style="margin-top: 44px; display: grid; gap: 22px; grid-template-columns: repeat(1, minmax(0, 1fr));">
+              <div style="border: 1px solid rgba(0,0,0,0.12); border-radius: 16px; padding: 22px; background:#fff;">
+                <h3 style="margin:0 0 10px; font-size: 18px; font-weight: 800;">What’s included with every plan</h3>
+                <ul style="margin: 0; padding-left: 18px; line-height: 1.8; font-size: 14px;">
+                  <li>Dedicated assistant matched to your needs</li>
+                  <li>Structured onboarding + workflow setup</li>
+                  <li>Paragon oversight and quality checks</li>
+                  <li>Clear communication standards</li>
+                  <li>Month-to-month flexibility</li>
+                </ul>
+              </div>
+
+              <div style="border: 1px solid rgba(0,0,0,0.12); border-radius: 16px; padding: 22px; background:#fff;">
+                <h3 style="margin:0 0 10px; font-size: 18px; font-weight: 800;">FAQ</h3>
+
+                <details style="padding: 10px 0; border-top: 1px solid rgba(0,0,0,0.08);">
+                  <summary style="cursor:pointer; font-weight: 700;">Can I upgrade or downgrade?</summary>
+                  <div style="margin-top: 8px; font-size: 14px; line-height: 1.6; opacity: 0.85;">
+                    Yes — you can scale as your needs change. We’ll recommend the right plan based on usage and workload.
+                  </div>
+                </details>
+
+                <details style="padding: 10px 0; border-top: 1px solid rgba(0,0,0,0.08);">
+                  <summary style="cursor:pointer; font-weight: 700;">What if the assistant isn’t a fit?</summary>
+                  <div style="margin-top: 8px; font-size: 14px; line-height: 1.6; opacity: 0.85;">
+                    We support structured replacement and continuity options to minimize disruption.
+                  </div>
+                </details>
+
+                <details style="padding: 10px 0; border-top: 1px solid rgba(0,0,0,0.08);">
+                  <summary style="cursor:pointer; font-weight: 700;">Is there a long-term contract?</summary>
+                  <div style="margin-top: 8px; font-size: 14px; line-height: 1.6; opacity: 0.85;">
+                    No. Plans are month-to-month.
+                  </div>
+                </details>
+
+                <details style="padding: 10px 0; border-top: 1px solid rgba(0,0,0,0.08);">
+                  <summary style="cursor:pointer; font-weight: 700;">How do we get started?</summary>
+                  <div style="margin-top: 8px; font-size: 14px; line-height: 1.6; opacity: 0.85;">
+                    Book a call and we’ll confirm the best plan, define scope, and begin matching and onboarding.
+                  </div>
+                </details>
+              </div>
+            </div>
+
+            <!-- CTA -->
+            <div style="text-align:center; margin-top: 34px;">
+              <h3 style="margin:0 0 10px; font-size: 20px; font-weight: 900;">Ready to get time back?</h3>
+              <p style="margin:0 auto 16px; max-width: 680px; font-size: 14px; line-height: 1.7; opacity: 0.85;">
+                Tell us what you need help with and we’ll recommend the right plan.
+              </p>
+              <a
+                href="#contact"
+                style="
+                  display:inline-block;
+                  padding: 12px 18px;
+                  border-radius: 12px;
+                  border: 1px solid rgba(0,0,0,0.15);
+                  text-decoration: none;
+                  font-weight: 800;
+                  color: #fff;
+                  background: #111;
+                "
+              >
+                Book a Discovery Call
               </a>
             </div>
-
           </div>
         </section>
         <!-- end pricing -->
