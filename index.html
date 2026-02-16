@@ -369,284 +369,204 @@
         <!-- end services -->
 
         <!-- pricing -->
-        <section id="pricing" aria-labelledby="pricing-title" style="padding: 72px 0; font-family: var(--font-primary);">
-          <div style="max-width: 1100px; margin: 0 auto; padding: 0 20px;">
+        <section id="pricing" class="section pricing" aria-labelledby="pricing-title" style="font-family: var(--font-primary);">
+          <div class="container" style="max-width: 1100px;">
             <!-- Header -->
-            <div style="text-align: center; margin-bottom: 40px;">
-              <h2 id="pricing-title" style="font-size: 36px; line-height: 1.2; margin: 0 0 12px; font-weight: 800;">
-                Plans & Pricing
-              </h2>
-              <p style="margin: 0 auto; max-width: 720px; font-size: 16px; line-height: 1.6; opacity: 0.85;">
-                Get dedicated support without the hiring overhead. Choose the plan that matches your workload today — and scale up as needed.
+            <header class="pricing-header">
+              <h2 id="pricing-title" class="pricing-title">Plans &amp; Pricing</h2>
+              <p class="pricing-subtitle">
+                Dedicated support without the hiring overhead. Choose the plan that fits your workload today — and scale as needed.
               </p>
-              <p style="margin: 12px 0 0; font-size: 14px; opacity: 0.75;">
-                Month-to-month. No long-term contracts.
-              </p>
-            </div>
+              <p class="pricing-note">Month-to-month. No long-term contracts.</p>
+            </header>
 
-            <!-- Cards -->
-            <div
-              style="
-                display: grid;
-                gap: 18px;
-                grid-template-columns: repeat(1, minmax(0, 1fr));
-              "
-            >
+            <!-- Plans -->
+            <div class="pricing-grid">
               <!-- Starter -->
-              <div
-                style="
-                  border: 1px solid rgba(0,0,0,0.12);
-                  border-radius: 16px;
-                  padding: 22px;
-                  background: #fff;
-                "
-              >
-                <div style="display:flex; align-items: baseline; justify-content: space-between; gap: 12px;">
-                  <h3 style="margin:0; font-size: 20px; font-weight: 800;">Starter</h3>
-                  <span style="font-size: 13px; opacity: 0.7;">40 hours / month</span>
+              <article class="pricing-card">
+                <div class="pricing-card-top">
+                  <h3 class="pricing-plan">Starter</h3>
+                  <span class="pricing-hours">40 hours / month</span>
                 </div>
 
-                <div style="margin-top: 10px; display:flex; align-items: baseline; gap: 10px;">
-                  <div style="font-size: 34px; font-weight: 900;">$1,200</div>
-                  <div style="font-size: 14px; opacity: 0.7;">/ month</div>
+                <div class="pricing-price">
+                  <span class="pricing-amount">$1,200</span>
+                  <span class="pricing-term">/ month</span>
                 </div>
 
-                <p style="margin: 10px 0 0; font-size: 14px; line-height: 1.6; opacity: 0.85;">
-                  Structured, foundational support for founders who want consistent help with admin and recurring tasks.
+                <p class="pricing-desc">
+                  Foundational support for recurring admin and operations tasks.
                 </p>
 
-                <ul style="margin: 16px 0 0; padding-left: 18px; line-height: 1.8; font-size: 14px;">
-                  <li>Executive & admin support (SOP-driven)</li>
-                  <li>Inbox sorting + drafts (as directed)</li>
+                <ul class="pricing-list">
+                  <li>Inbox sorting + draft support (as directed)</li>
                   <li>Calendar scheduling + confirmations</li>
                   <li>Task coordination + follow-ups</li>
                   <li>Research, data entry, CRM updates</li>
                   <li>Paragon oversight + weekly check-ins</li>
                 </ul>
 
-                <p style="margin: 14px 0 0; font-size: 13px; opacity: 0.75;">
-                  Best for: repeatable tasks and steady support (not real-time / always-on).
-                </p>
+                <p class="pricing-fit">Best for: repeatable workflows and steady support.</p>
 
-                <a
-                  href="#contact"
-                  style="
-                    display:inline-block;
-                    margin-top: 18px;
-                    padding: 12px 16px;
-                    border-radius: 12px;
-                    border: 1px solid rgba(0,0,0,0.15);
-                    text-decoration: none;
-                    font-weight: 700;
-                    color: inherit;
-                  "
-                >
-                  Get Started
-                </a>
-              </div>
+                <a class="btn btn-outline" href="#contact">Get Started</a>
+              </article>
 
               <!-- Pro (Most Popular) -->
-              <div
-                style="
-                  border: 2px solid rgba(0,0,0,0.18);
-                  border-radius: 16px;
-                  padding: 22px;
-                  background: #fff;
-                  position: relative;
-                "
-              >
-                <div
-                  style="
-                    position:absolute;
-                    top: 14px;
-                    right: 14px;
-                    font-size: 12px;
-                    font-weight: 800;
-                    padding: 6px 10px;
-                    border-radius: 999px;
-                    border: 1px solid rgba(0,0,0,0.15);
-                    opacity: 0.9;
-                  "
-                >
-                  Most Popular
+              <article class="pricing-card pricing-card-featured" aria-label="Pro plan (most popular)">
+                <div class="pricing-badge">Most Popular</div>
+
+                <div class="pricing-card-top">
+                  <h3 class="pricing-plan">Pro</h3>
+                  <span class="pricing-hours">80 hours / month</span>
                 </div>
 
-                <div style="display:flex; align-items: baseline; justify-content: space-between; gap: 12px;">
-                  <h3 style="margin:0; font-size: 20px; font-weight: 800;">Pro</h3>
-                  <span style="font-size: 13px; opacity: 0.7;">80 hours / month</span>
+                <div class="pricing-price">
+                  <span class="pricing-amount">$2,400</span>
+                  <span class="pricing-term">/ month</span>
                 </div>
 
-                <div style="margin-top: 10px; display:flex; align-items: baseline; gap: 10px;">
-                  <div style="font-size: 34px; font-weight: 900;">$2,400</div>
-                  <div style="font-size: 14px; opacity: 0.7;">/ month</div>
-                </div>
-
-                <p style="margin: 10px 0 0; font-size: 14px; line-height: 1.6; opacity: 0.85;">
-                  Consistent, dependable support for daily operations. Ideal when your assistant is part of your weekly rhythm.
+                <p class="pricing-desc">
+                  Dependable support for day-to-day operations — when your assistant becomes part of your weekly rhythm.
                 </p>
 
-                <ul style="margin: 16px 0 0; padding-left: 18px; line-height: 1.8; font-size: 14px;">
-                  <li>Everything in Starter</li>
+                <ul class="pricing-list">
+                  <li><strong>Everything in Starter</strong></li>
                   <li>Higher availability for daily priorities</li>
                   <li>Structured onboarding + workflow setup</li>
                   <li>Continuity support and escalation path</li>
                   <li>Performance oversight and feedback loop</li>
                 </ul>
 
-                <p style="margin: 14px 0 0; font-size: 13px; opacity: 0.75;">
-                  Best for: founders and teams who rely on their assistant day-to-day.
-                </p>
+                <p class="pricing-fit">Best for: founders and teams who rely on support daily.</p>
 
-                <a
-                  href="#contact"
-                  style="
-                    display:inline-block;
-                    margin-top: 18px;
-                    padding: 12px 16px;
-                    border-radius: 12px;
-                    border: 1px solid rgba(0,0,0,0.15);
-                    text-decoration: none;
-                    font-weight: 800;
-                    color: #fff;
-                    background: #111;
-                  "
-                >
-                  Book a Call
-                </a>
-              </div>
+                <a class="btn btn-primary" href="#contact">Book a Call</a>
+              </article>
 
               <!-- Priority -->
-              <div
-                style="
-                  border: 1px solid rgba(0,0,0,0.12);
-                  border-radius: 16px;
-                  padding: 22px;
-                  background: #fff;
-                "
-              >
-                <div style="display:flex; align-items: baseline; justify-content: space-between; gap: 12px;">
-                  <h3 style="margin:0; font-size: 20px; font-weight: 800;">Priority</h3>
-                  <span style="font-size: 13px; opacity: 0.7;">160 hours / month (full-time equivalent)</span>
+              <article class="pricing-card">
+                <div class="pricing-card-top">
+                  <h3 class="pricing-plan">Priority</h3>
+                  <span class="pricing-hours">160 hours / month</span>
                 </div>
 
-                <div style="margin-top: 10px; display:flex; align-items: baseline; gap: 10px;">
-                  <div style="font-size: 34px; font-weight: 900;">$3,900</div>
-                  <div style="font-size: 14px; opacity: 0.7;">/ month</div>
+                <div class="pricing-price">
+                  <span class="pricing-amount">$3,900</span>
+                  <span class="pricing-term">/ month</span>
                 </div>
 
-                <p style="margin: 10px 0 0; font-size: 14px; line-height: 1.6; opacity: 0.85;">
-                  Full-time support for teams that want an embedded assistant without hiring in-house.
+                <p class="pricing-desc">
+                  Full-time equivalent coverage for teams that want an embedded assistant — without hiring in-house.
                 </p>
 
-                <ul style="margin: 16px 0 0; padding-left: 18px; line-height: 1.8; font-size: 14px;">
-                  <li>Everything in Pro</li>
+                <ul class="pricing-list">
+                  <li><strong>Everything in Pro</strong></li>
                   <li>Full-time coverage for operational leverage</li>
                   <li>Priority handling and rapid issue resolution</li>
                   <li>Ongoing performance oversight</li>
-                  <li>Scalable capacity planning as you grow</li>
+                  <li>Capacity planning as you grow</li>
                 </ul>
 
-                <p style="margin: 14px 0 0; font-size: 13px; opacity: 0.75;">
-                  Best for: founders ready for full operational leverage.
-                </p>
+                <p class="pricing-fit">Best for: founders ready for full operational leverage.</p>
 
-                <a
-                  href="#contact"
-                  style="
-                    display:inline-block;
-                    margin-top: 18px;
-                    padding: 12px 16px;
-                    border-radius: 12px;
-                    border: 1px solid rgba(0,0,0,0.15);
-                    text-decoration: none;
-                    font-weight: 700;
-                    color: inherit;
-                  "
-                >
-                  Talk to Us
-                </a>
-              </div>
+                <a class="btn btn-outline" href="#contact">Talk to Us</a>
+              </article>
             </div>
 
-            <!-- Responsive tweak (simple) -->
-            <style>
-              @media (min-width: 820px) {
-                #pricing > div > div:nth-child(2) {
-                  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
-                }
-              }
-            </style>
-
-            <!-- Included + FAQ -->
-            <div style="margin-top: 44px; display: grid; gap: 22px; grid-template-columns: repeat(1, minmax(0, 1fr));">
-              <div style="border: 1px solid rgba(0,0,0,0.12); border-radius: 16px; padding: 22px; background:#fff;">
-                <h3 style="margin:0 0 10px; font-size: 18px; font-weight: 800;">What’s included with every plan</h3>
-                <ul style="margin: 0; padding-left: 18px; line-height: 1.8; font-size: 14px;">
-                  <li>Dedicated assistant matched to your needs</li>
-                  <li>Structured onboarding + workflow setup</li>
-                  <li>Paragon oversight and quality checks</li>
-                  <li>Clear communication standards</li>
-                  <li>Month-to-month flexibility</li>
-                </ul>
+            <!-- One-time setup fee -->
+            <section class="pricing-setup" aria-label="Implementation and workflow setup fee">
+              <div class="pricing-setup-top">
+                <h3 class="pricing-setup-title">Implementation &amp; Workflow Setup</h3>
+                <div class="pricing-setup-price">
+                  <span class="pricing-setup-amount">$250</span>
+                  <span class="pricing-setup-term">one-time</span>
+                </div>
               </div>
 
-              <div style="border: 1px solid rgba(0,0,0,0.12); border-radius: 16px; padding: 22px; background:#fff;">
-                <h3 style="margin:0 0 10px; font-size: 18px; font-weight: 800;">FAQ</h3>
+              <p class="pricing-setup-subtitle">
+                One-time setup to ensure we match you correctly and launch smoothly.
+              </p>
 
-                <details style="padding: 10px 0; border-top: 1px solid rgba(0,0,0,0.08);">
-                  <summary style="cursor:pointer; font-weight: 700;">Can I upgrade or downgrade?</summary>
-                  <div style="margin-top: 8px; font-size: 14px; line-height: 1.6; opacity: 0.85;">
-                    Yes — you can scale as your needs change. We’ll recommend the right plan based on usage and workload.
-                  </div>
-                </details>
+              <ul class="pricing-setup-list">
+                <li>Custom VA matching &amp; selection</li>
+                <li>Onboarding &amp; setup</li>
+                <li>Workflow integration</li>
+                <li>Kickoff call &amp; training</li>
+                <li>Personalized success plan</li>
+              </ul>
+            </section>
 
-                <details style="padding: 10px 0; border-top: 1px solid rgba(0,0,0,0.08);">
-                  <summary style="cursor:pointer; font-weight: 700;">What if the assistant isn’t a fit?</summary>
-                  <div style="margin-top: 8px; font-size: 14px; line-height: 1.6; opacity: 0.85;">
-                    We support structured replacement and continuity options to minimize disruption.
-                  </div>
-                </details>
-
-                <details style="padding: 10px 0; border-top: 1px solid rgba(0,0,0,0.08);">
-                  <summary style="cursor:pointer; font-weight: 700;">Is there a long-term contract?</summary>
-                  <div style="margin-top: 8px; font-size: 14px; line-height: 1.6; opacity: 0.85;">
-                    No. Plans are month-to-month.
-                  </div>
-                </details>
-
-                <details style="padding: 10px 0; border-top: 1px solid rgba(0,0,0,0.08);">
-                  <summary style="cursor:pointer; font-weight: 700;">How do we get started?</summary>
-                  <div style="margin-top: 8px; font-size: 14px; line-height: 1.6; opacity: 0.85;">
-                    Book a call and we’ll confirm the best plan, define scope, and begin matching and onboarding.
-                  </div>
-                </details>
-              </div>
-            </div>
+            <!-- Included -->
+            <section class="pricing-includes" aria-label="What is included with every plan">
+              <h3 class="pricing-includes-title">What’s included with every plan</h3>
+              <ul class="pricing-includes-list">
+                <li>Dedicated assistant matched to your needs</li>
+                <li>Structured onboarding + workflow setup</li>
+                <li>Paragon oversight and quality checks</li>
+                <li>Clear communication standards</li>
+                <li>Month-to-month flexibility</li>
+              </ul>
+            </section>
 
             <!-- CTA -->
-            <div style="text-align:center; margin-top: 34px;">
-              <h3 style="margin:0 0 10px; font-size: 20px; font-weight: 900;">Ready to get time back?</h3>
-              <p style="margin:0 auto 16px; max-width: 680px; font-size: 14px; line-height: 1.7; opacity: 0.85;">
-                Tell us what you need help with and we’ll recommend the right plan.
-              </p>
-              <a
-                href="#contact"
-                style="
-                  display:inline-block;
-                  padding: 12px 18px;
-                  border-radius: 12px;
-                  border: 1px solid rgba(0,0,0,0.15);
-                  text-decoration: none;
-                  font-weight: 800;
-                  color: #fff;
-                  background: #111;
-                "
-              >
-                Book a Discovery Call
-              </a>
+            <div class="pricing-cta">
+              <h3 class="pricing-cta-title">Ready to get time back?</h3>
+              <p class="pricing-cta-text">Tell us what you need help with and we’ll recommend the right plan.</p>
+              <a class="btn btn-primary" href="#contact">Book a Discovery Call</a>
             </div>
           </div>
         </section>
+
+        <!-- OPTIONAL: Lightweight fallback CSS (keep only if your site doesn't already style these classes) -->
+        <style>
+          .section.pricing { padding: 72px 0; }
+          /* .container handled by main.css */
+
+          .pricing-header { text-align: center; margin-bottom: 40px; }
+          .pricing-title { font-size: 36px; line-height: 1.2; margin: 0 0 12px; font-weight: 800; font-family: var(--font-secondary); }
+          .pricing-subtitle { margin: 0 auto; max-width: 720px; font-size: 16px; line-height: 1.6; opacity: 0.85; }
+          .pricing-note { margin-top: 12px; font-size: 14px; opacity: 0.75; }
+
+          .pricing-grid { display: grid; gap: 18px; grid-template-columns: repeat(1, minmax(0, 1fr)); }
+          @media (min-width: 820px) { .pricing-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+          .pricing-card { border: 1px solid rgba(0,0,0,0.12); border-radius: 16px; padding: 22px; background: #fff; position: relative; }
+          .pricing-card-featured { border: 2px solid rgba(0,0,0,0.18); }
+          .pricing-badge { position: absolute; top: 14px; right: 14px; font-size: 12px; font-weight: 800; padding: 6px 10px; border-radius: 999px; border: 1px solid rgba(0,0,0,0.15); background: #fff; }
+
+          .pricing-card-top { display:flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+          .pricing-plan { margin:0; font-size: 20px; font-weight: 800; font-family: var(--font-secondary); }
+          .pricing-hours { font-size: 13px; opacity: 0.7; }
+
+          .pricing-price { margin-top: 10px; display:flex; align-items: baseline; gap: 10px; }
+          .pricing-amount { font-size: 34px; font-weight: 900; }
+          .pricing-term { font-size: 14px; opacity: 0.7; }
+
+          .pricing-desc { margin: 10px 0 0; font-size: 14px; line-height: 1.6; opacity: 0.85; }
+          .pricing-list { margin: 16px 0 0; padding-left: 18px; line-height: 1.8; font-size: 14px; }
+          .pricing-fit { margin: 14px 0 0; font-size: 13px; opacity: 0.75; }
+
+          .pricing-setup { margin-top: 24px; border: 1px solid rgba(0,0,0,0.12); border-radius: 16px; padding: 22px; background:#fff; }
+          .pricing-setup-top { display:flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+          .pricing-setup-title { margin:0; font-size: 18px; font-weight: 800; font-family: var(--font-secondary); }
+          .pricing-setup-amount { font-size: 22px; font-weight: 900; }
+          .pricing-setup-term { font-size: 13px; opacity: 0.7; margin-left: 6px; }
+          .pricing-setup-subtitle { margin: 10px 0 14px; font-size: 14px; line-height: 1.6; opacity: 0.85; }
+          .pricing-setup-list { margin: 0; padding-left: 18px; line-height: 1.8; font-size: 14px; }
+
+          .pricing-includes { margin-top: 18px; border: 1px solid rgba(0,0,0,0.12); border-radius: 16px; padding: 22px; background:#fff; }
+          .pricing-includes-title { margin:0 0 10px; font-size: 18px; font-weight: 800; font-family: var(--font-secondary); }
+          .pricing-includes-list { margin: 0; padding-left: 18px; line-height: 1.8; font-size: 14px; }
+
+          .pricing-cta { text-align:center; margin-top: 28px; }
+          .pricing-cta-title { margin:0 0 10px; font-size: 20px; font-weight: 900; font-family: var(--font-secondary); }
+          .pricing-cta-text { margin:0 auto 16px; max-width: 680px; font-size: 14px; line-height: 1.7; opacity: 0.85; }
+
+          .btn { display:inline-block; padding: 12px 18px; border-radius: 12px; border: 1px solid rgba(0,0,0,0.15); text-decoration: none; font-weight: 800; transition: all 0.2s; }
+          .btn-primary { background: #111; color: #fff; }
+          .btn-primary:hover { background: #333; }
+          .btn-outline { background: transparent; color: inherit; }
+          .btn-outline:hover { background: rgba(0,0,0,0.05); }
+        </style>
         <!-- end pricing -->
 
         <!-- testimonials -->
