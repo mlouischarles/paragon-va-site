@@ -1,465 +1,394 @@
 <!DOCTYPE html>
+
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <!-- stylesheets -->
-    <link rel="stylesheet" href="./assets/css/swiper.min.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
-
-    <title>Paragon Virtual Assistants</title>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<!-- fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;family=Urbanist:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<!-- stylesheets -->
+<link href="./assets/css/swiper.min.css" rel="stylesheet"/>
+<link href="./assets/css/main.css" rel="stylesheet"/>
+<title>Paragon Virtual Assistants</title>
 </head>
-
 <body>
-    <!-- header -->
-    <header>
-        <nav class="nav__bar">
-            <div class="nav__bar-container container">
-                <a class="nav__bar-logo" href="/">
-                    <span class="heading">Paragon</span>
-                    <span class="slogan">VA</span>
-                </a>
-                <div class="nav__bar-menu">
-                    <a href="#services" class="menu-item">Services</a>
-                    <a href="#pricing" class="menu-item">Pricing</a>
-                    <a href="#testimonials" class="menu-item">Testimonials</a>
-                    <a href="/blog" class="menu-item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="icon">
-                            <path d="M12 7v14"></path>
-                            <path
-                                d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
-                            </path>
-                        </svg>
+<!-- header -->
+<header>
+<nav class="nav__bar">
+<div class="nav__bar-container container">
+<a class="nav__bar-logo" href="/">
+<span class="heading">Paragon</span>
+<span class="slogan">VA</span>
+</a>
+<div class="nav__bar-menu">
+<a class="menu-item" href="#services">Services</a>
+<a class="menu-item" href="#pricing">Pricing</a>
+<a class="menu-item" href="#testimonials">Testimonials</a>
+<a class="menu-item" href="/blog/5-signs-you-need-a-virtual-assistant-2026/">
+<svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 7v14"></path>
+<path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
+</path>
+</svg>
                         Blog
                     </a>
-                    <a href="#contact" class="menu-item">Contact</a>
-                    <a href="https://calendly.com/hireparagonva-info" target="_blank" rel="noopener noreferrer">
-                        <button class="cta-btn">
+<a class="menu-item" href="#contact">Contact</a>
+<a href="https://calendly.com/hireparagonva-info" rel="noopener noreferrer" target="_blank">
+<button class="cta-btn">
                             Book a Call
                         </button>
+</a>
+</div>
+<button class="nav__bar-menu-toggler">
+<svg class="icon icon-hamburger" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<line x1="4" x2="20" y1="12" y2="12"></line>
+<line x1="4" x2="20" y1="6" y2="6"></line>
+<line x1="4" x2="20" y1="18" y2="18"></line>
+</svg>
+<svg class="icon icon-x hidden" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M18 6 6 18"></path>
+<path d="m6 6 12 12"></path>
+</svg>
+</button>
+</div>
+<div class="nav__bar-menu-small-screen shadow">
+<div class="nav-menu">
+<a class="menu-item" href="#services">Services</a>
+<a class="menu-item" href="#pricing">Pricing</a>
+<a class="menu-item" href="#testimonials">Testimonials</a>
+<a class="menu-item" href="/blog/5-signs-you-need-a-virtual-assistant-2026/">
+<svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 7v14"></path>
+<path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
+</path>
+</svg>Blog
                     </a>
-                </div>
-                <button class="nav__bar-menu-toggler">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="icon icon-hamburger">
-                        <line x1="4" x2="20" y1="12" y2="12"></line>
-                        <line x1="4" x2="20" y1="6" y2="6"></line>
-                        <line x1="4" x2="20" y1="18" y2="18"></line>
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                        class="icon icon-x hidden">
-                        <path d="M18 6 6 18"></path>
-                        <path d="m6 6 12 12"></path>
-                    </svg>
-                </button>
-            </div>
-            <div class="nav__bar-menu-small-screen shadow">
-                <div class="nav-menu">
-                    <a href="#services" class="menu-item">Services</a>
-                    <a href="#pricing" class="menu-item">Pricing</a>
-                    <a href="#testimonials" class="menu-item">Testimonials</a>
-                    <a href="/blog" class="menu-item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                            class="icon">
-                            <path d="M12 7v14"></path>
-                            <path
-                                d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
-                            </path>
-                        </svg>Blog
-                    </a>
-                    <a href="#contact" class="menu-item">Contact</a>
-                    <a href="https://calendly.com/hireparagonva-info" target="_blank" rel="noopener noreferrer" class="inline-block">
-                        <button
-                            class="cta-btn inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-10 px-4 py-2 bg-paragon-500 hover:bg-paragon-600 w-full">
+<a class="menu-item" href="#contact">Contact</a>
+<a class="inline-block" href="https://calendly.com/hireparagonva-info" rel="noopener noreferrer" target="_blank">
+<button class="cta-btn inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 text-primary-foreground h-10 px-4 py-2 bg-paragon-500 hover:bg-paragon-600 w-full">
                             Book a Call
                         </button>
-                    </a>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <!-- end header -->
-
-    <!-- main -->
-    <main>
-        <!-- hero -->
-        <section>
-            <div class="hero__wrapper relative pt-28 pb-20 md:pt-36 md:pb-32 overflow-hidden">
-                <div class="hero__bg"></div>
-                <div class="hero__bg-slide"></div>
-                <div class="hero__bg-top-circle"></div>
-                <div class="hero__bg-bottom-circle"></div>
-                <div class="hero__bg-right-circle"></div>
-                <div class="hero__container container">
-                    <div class="hero__content-container">
-                        <div class="hero__text-container">
-                            <h1 class="hero__text-heading">
+</a>
+</div>
+</div>
+</nav>
+</header>
+<!-- end header -->
+<!-- main -->
+<main>
+<!-- hero -->
+<section>
+<div class="hero__wrapper relative pt-28 pb-20 md:pt-36 md:pb-32 overflow-hidden">
+<div class="hero__bg"></div>
+<div class="hero__bg-slide"></div>
+<div class="hero__bg-top-circle"></div>
+<div class="hero__bg-bottom-circle"></div>
+<div class="hero__bg-right-circle"></div>
+<div class="hero__container container">
+<div class="hero__content-container">
+<div class="hero__text-container">
+<h1 class="hero__text-heading">
                                 Grow Your Business with
                                 <span class="text-gradient">Paragon</span>
                                 Virtual Assistants
                             </h1>
-                            <p class="hero__text-desc">
+<p class="hero__text-desc">
                                 Reliable, professional, and scalable VA services for entrepreneurs, small businesses, and e-commerce brands.
                             </p>
-                            <div class="hero__text-list">
-                                <ul class="hero__list">
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" class="check-icon">
-                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
-                                            <path d="m9 11 3 3L22 4"></path>
-                                        </svg>
-                                        <span>Save 20+ hours per week</span>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" class="check-icon">
-                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
-                                            <path d="m9 11 3 3L22 4"></path>
-                                        </svg>
-                                        <span>Scale your business faster</span>
-                                    </li>
-                                    <li>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round" class="check-icon">
-                                            <path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
-                                            <path d="m9 11 3 3L22 4"></path>
-                                        </svg>
-                                        <span>Reduce operational costs</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="hero__btn-wrapper" style="justify-content: center; align-items: center;">
-                                <a href="https://calendly.com/hireparagonva-info" target="_blank" rel="noopener noreferrer">
-                                    <button class="hero-btn-1">
+<div class="hero__text-list">
+<ul class="hero__list">
+<li>
+<svg class="check-icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+<path d="m9 11 3 3L22 4"></path>
+</svg>
+<span>Save 20+ hours per week</span>
+</li>
+<li>
+<svg class="check-icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+<path d="m9 11 3 3L22 4"></path>
+</svg>
+<span>Scale your business faster</span>
+</li>
+<li>
+<svg class="check-icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.801 10A10 10 0 1 1 17 3.335"></path>
+<path d="m9 11 3 3L22 4"></path>
+</svg>
+<span>Reduce operational costs</span>
+</li>
+</ul>
+</div>
+<div class="hero__btn-wrapper" style="justify-content: center; align-items: center;">
+<a href="https://calendly.com/hireparagonva-info" rel="noopener noreferrer" target="_blank">
+<button class="hero-btn-1">
                                         Book a Free Discovery Call
                                     </button>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="hero__img-container">
-                            <div class="hero__img-wrapper">
-                                <div class="hero__img-circle"></div>
-                                <div class="hero__main-img">
-                                    <img src="static/images/unsplash-1.jpg"
-                                        alt="Professional virtual assistant">
-                                </div>
-                                <div class="img-bottom-circle"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end hero -->
-
-        <!-- services -->
-        <section id="services" class="services__section section-padding">
-            <div class="container services__container">
-                <div class="services__main-text">
-                    <h2 class="main-heading">
+</a>
+</div>
+</div>
+<div class="hero__img-container">
+<div class="hero__img-wrapper">
+<div class="hero__img-circle"></div>
+<div class="hero__main-img">
+<img alt="Professional virtual assistant" src="static/images/unsplash-1.jpg"/>
+</div>
+<div class="img-bottom-circle"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- end hero -->
+<!-- services -->
+<section class="services__section section-padding" id="services">
+<div class="container services__container">
+<div class="services__main-text">
+<h2 class="main-heading">
                         Our Services
                     </h2>
-                    <p class="desc">
+<p class="desc">
                         Comprehensive support tailored to your business needs
                     </p>
-                </div>
-                <div class="services__counter">
-                    <div class="counter__line">
-                        <div class="line"></div>
-                    </div>
-                    <div class="services__counter-wrapper">
-                        <div class="counter-item">
-                            <div class="counter-box">
-                                <div class="count">1</div>
-                            </div>
-                        </div>
-                        <div class="counter-item">
-                            <div class="counter-box">
-                                <div class="count">2</div>
-                            </div>
-                        </div>
-                        <div class="counter-item">
-                            <div class="counter-box">
-                                <div class="count">3</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="services__card-wrapper">
-                    <div class="services__card">
-                        <div class="card-header">
-                            <div class="svg-container">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="icon">
-                                    <circle cx="8" cy="21" r="1"></circle>
-                                    <circle cx="19" cy="21" r="1"></circle>
-                                    <path
-                                        d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12">
-                                    </path>
-                                </svg>
-                            </div>
-                            <h3 class="heading">E-commerce Support</h3>
-                        </div>
-                        <div class="card-body">
-                            <p class="desc">
+</div>
+<div class="services__counter">
+<div class="counter__line">
+<div class="line"></div>
+</div>
+<div class="services__counter-wrapper">
+<div class="counter-item">
+<div class="counter-box">
+<div class="count">1</div>
+</div>
+</div>
+<div class="counter-item">
+<div class="counter-box">
+<div class="count">2</div>
+</div>
+</div>
+<div class="counter-item">
+<div class="counter-box">
+<div class="count">3</div>
+</div>
+</div>
+</div>
+</div>
+<div class="services__card-wrapper">
+<div class="services__card">
+<div class="card-header">
+<div class="svg-container">
+<svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="8" cy="21" r="1"></circle>
+<circle cx="19" cy="21" r="1"></circle>
+<path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12">
+</path>
+</svg>
+</div>
+<h3 class="heading">E-commerce Support</h3>
+</div>
+<div class="card-body">
+<p class="desc">
                                 Average clients save 15+ hours per week on product listings, order management, and customer service. We handle everything from inventory tracking to customer support.
                             </p>
-                            <ul class="list space-y-2">
-                                <li class="list-item">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="icon">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Product listings optimization</span>
-                                </li>
-                                <li class="list-item">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="icon">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Inventory management</span>
-                                </li>
-                                <li class="list-item">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="icon">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Customer service</span>
-                                </li>
-                                <li class="list-item">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="icon">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg>
-                                    <span>Order fulfillment</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="services__card">
-                        <div class="card-header">
-                            <div class="svg-container">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="icon">
-                                    <rect width="8" height="4" x="8" y="2" rx="1" ry="1"></rect>
-                                    <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2">
-                                    </path>
-                                    <path d="m9 14 2 2 4-4"></path>
-                                </svg>
-                            </div>
-                            <h3 class="heading">Executive Assistance</h3>
-                        </div>
-                        <div class="card-body">
-                            <p class="desc">Achieve inbox zero daily and reclaim 20+ hours per month. We handle email management, calendar scheduling, travel booking, and meeting coordination so you can focus on strategic work.</p>
-                            <ul class="list">
-                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg><span>Calendar management</span></li>
-                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg><span>Email coordination</span></li>
-                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg><span>Travel arrangements</span></li>
-                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg><span>Administrative tasks</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="services__card">
-                        <div class="card-header">
-                            <div class="svg-container"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
-                                </svg></div>
-                            <h3 class="heading">Social Media Management</h3>
-                        </div>
-                        <div class="card-body">
-                            <p class="desc">Maintain consistent presence with 5-7 posts per week across platforms. We handle content scheduling, community engagement, and monthly analytics reporting.</p>
-                            <ul class="list">
-                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg><span>Strategic content creation</span></li>
-                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg><span>Community engagement</span></li>
-                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg><span>Analytics reporting</span></li>
-                                <li class="list-item"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                        viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                        stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                        <circle cx="12" cy="12" r="10"></circle>
-                                        <path d="m9 12 2 2 4-4"></path>
-                                    </svg><span>Cross-platform management</span></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="cta__container">
-                    <div class="cta__wrapper">
-                        <div class="cta__text-wrapper">
-                            <h3 class="heading">How We Work With You</h3>
-                            <p class="desc">Our seamless onboarding process ensures we understand your
+<ul class="list space-y-2">
+<li class="list-item">
+<svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span>Product listings optimization</span>
+</li>
+<li class="list-item">
+<svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span>Inventory management</span>
+</li>
+<li class="list-item">
+<svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span>Customer service</span>
+</li>
+<li class="list-item">
+<svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg>
+<span>Order fulfillment</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="services__card">
+<div class="card-header">
+<div class="svg-container">
+<svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<rect height="4" rx="1" ry="1" width="8" x="8" y="2"></rect>
+<path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2">
+</path>
+<path d="m9 14 2 2 4-4"></path>
+</svg>
+</div>
+<h3 class="heading">Executive Assistance</h3>
+</div>
+<div class="card-body">
+<p class="desc">Achieve inbox zero daily and reclaim 20+ hours per month. We handle email management, calendar scheduling, travel booking, and meeting coordination so you can focus on strategic work.</p>
+<ul class="list">
+<li class="list-item"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg><span>Calendar management</span></li>
+<li class="list-item"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg><span>Email coordination</span></li>
+<li class="list-item"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg><span>Travel arrangements</span></li>
+<li class="list-item"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg><span>Administrative tasks</span></li>
+</ul>
+</div>
+</div>
+<div class="services__card">
+<div class="card-header">
+<div class="svg-container"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect>
+<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+<line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+</svg></div>
+<h3 class="heading">Social Media Management</h3>
+</div>
+<div class="card-body">
+<p class="desc">Maintain consistent presence with 5-7 posts per week across platforms. We handle content scheduling, community engagement, and monthly analytics reporting.</p>
+<ul class="list">
+<li class="list-item"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg><span>Strategic content creation</span></li>
+<li class="list-item"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg><span>Community engagement</span></li>
+<li class="list-item"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg><span>Analytics reporting</span></li>
+<li class="list-item"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="m9 12 2 2 4-4"></path>
+</svg><span>Cross-platform management</span></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cta__container">
+<div class="cta__wrapper">
+<div class="cta__text-wrapper">
+<h3 class="heading">How We Work With You</h3>
+<p class="desc">Our seamless onboarding process ensures we understand your
                                 business needs and match you with the perfect virtual assistant. We integrate with your
                                 existing workflows and tools to provide maximum value with minimum disruption.</p>
-                            <a href="#contact" class="link">Learn more about
+<a class="link" href="#contact">Learn more about
                                 our process →</a>
-                        </div>
-                        <div class="cta__img-wrapper h-64 md:h-auto"><img
-                                src="static/images/unsplash-2.jpg"
-                                alt="Team collaboration"></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end services -->
-
-        <!-- pricing -->
-        <section id="pricing" class="section pricing" aria-labelledby="pricing-title" style="font-family: var(--font-primary); position: relative; z-index: 1;">
-          <div class="container" style="max-width: 1100px;">
-            <div class="pricing-header">
-              <h2 id="pricing-title">Plans & Pricing</h2>
-              <p>
+</div>
+<div class="cta__img-wrapper h-64 md:h-auto"><img alt="Team collaboration" src="static/images/unsplash-2.jpg"/></div>
+</div>
+</div>
+</div>
+</section>
+<!-- end services -->
+<!-- pricing -->
+<section aria-labelledby="pricing-title" class="section pricing" id="pricing" style="font-family: var(--font-primary); position: relative; z-index: 1;">
+<div class="container" style="max-width: 1100px;">
+<div class="pricing-header">
+<h2 id="pricing-title">Plans &amp; Pricing</h2>
+<p>
                 Structured operational support without the complexity of hiring in-house.
                 Month-to-month. No long-term contracts.
               </p>
-            </div>
-
-            <div class="pricing-grid">
-
-              <!-- Starter -->
-              <div class="pricing-card">
-                <h3>Starter</h3>
-                <p class="hours">40 Hours / Month</p>
-                <p class="price">$799 <span>/ month</span></p>
-
-                <ul>
-                  <li>Inbox & calendar coordination</li>
-                  <li>Task follow-ups & admin support</li>
-                  <li>CRM updates & research</li>
-                  <li>Workflow-based task execution</li>
-                  <li>Paragon oversight & support</li>
-                </ul>
-              </div>
-
-              <!-- Growth -->
-              <div class="pricing-card featured">
-                <div class="badge" style="z-index: 2;">Most Popular</div>
-                <h3>Growth</h3>
-                <p class="hours">80 Hours / Month</p>
-                <p class="price">$1,499 <span>/ month</span></p>
-
-                <ul>
-                  <li>Everything in Starter</li>
-                  <li>Daily execution support</li>
-                  <li>Structured onboarding</li>
-                  <li>Priority communication</li>
-                  <li>Performance monitoring</li>
-                </ul>
-              </div>
-
-              <!-- Pro -->
-              <div class="pricing-card">
-                <h3>Pro</h3>
-                <p class="hours">160 Hours / Month</p>
-                <p class="price">$2,699 <span>/ month</span></p>
-
-                <ul>
-                  <li>Everything in Growth</li>
-                  <li>Full-time equivalent support</li>
-                  <li>Higher availability</li>
-                  <li>Advanced workflow integration</li>
-                  <li>Capacity planning support</li>
-                </ul>
-              </div>
-
-            </div>
-
-            <!-- Implementation Fee -->
-            <div class="implementation-section">
-              <h3>Implementation & Workflow Setup</h3>
-              <p class="price">$250 <span>one-time</span></p>
-              <p>
+</div>
+<div class="pricing-grid">
+<!-- Starter -->
+<div class="pricing-card">
+<h3>Starter</h3>
+<p class="hours">40 Hours / Month</p>
+<p class="price">$799 <span>/ month</span></p>
+<ul>
+<li>Inbox &amp; calendar coordination</li>
+<li>Task follow-ups &amp; admin support</li>
+<li>CRM updates &amp; research</li>
+<li>Workflow-based task execution</li>
+<li>Paragon oversight &amp; support</li>
+</ul>
+</div>
+<!-- Growth -->
+<div class="pricing-card featured">
+<div class="badge" style="z-index: 2;">Most Popular</div>
+<h3>Growth</h3>
+<p class="hours">80 Hours / Month</p>
+<p class="price">$1,499 <span>/ month</span></p>
+<ul>
+<li>Everything in Starter</li>
+<li>Daily execution support</li>
+<li>Structured onboarding</li>
+<li>Priority communication</li>
+<li>Performance monitoring</li>
+</ul>
+</div>
+<!-- Pro -->
+<div class="pricing-card">
+<h3>Pro</h3>
+<p class="hours">160 Hours / Month</p>
+<p class="price">$2,699 <span>/ month</span></p>
+<ul>
+<li>Everything in Growth</li>
+<li>Full-time equivalent support</li>
+<li>Higher availability</li>
+<li>Advanced workflow integration</li>
+<li>Capacity planning support</li>
+</ul>
+</div>
+</div>
+<!-- Implementation Fee -->
+<div class="implementation-section">
+<h3>Implementation &amp; Workflow Setup</h3>
+<p class="price">$250 <span>one-time</span></p>
+<p>
                 Covers assistant matching, onboarding, workflow integration,
                 kickoff alignment, and structured launch support.
               </p>
-            </div>
-
-            <!-- Included -->
-            <div class="included-section">
-              <h3>Included with Every Plan</h3>
-              <ul>
-                <li>Dedicated assistant matched to your needs</li>
-                <li>Structured onboarding process</li>
-                <li>Paragon oversight & quality checks</li>
-                <li>Clear communication standards</li>
-                <li>Month-to-month flexibility</li>
-              </ul>
-            </div>
-
-            <div class="pricing-cta">
-              <h3>Ready to get time back?</h3>
-              <p>Tell us what you need help with and we’ll recommend the right plan.</p>
-              <a href="#contact" class="btn-primary">Book a Discovery Call</a>
-            </div>
-
-          </div>
-        </section>
-
-        <!-- OPTIONAL: Lightweight fallback CSS (keep only if your site doesn't already style these classes) -->
-        <style>
+</div>
+<!-- Included -->
+<div class="included-section">
+<h3>Included with Every Plan</h3>
+<ul>
+<li>Dedicated assistant matched to your needs</li>
+<li>Structured onboarding process</li>
+<li>Paragon oversight &amp; quality checks</li>
+<li>Clear communication standards</li>
+<li>Month-to-month flexibility</li>
+</ul>
+</div>
+<div class="pricing-cta">
+<h3>Ready to get time back?</h3>
+<p>Tell us what you need help with and we’ll recommend the right plan.</p>
+<a class="btn-primary" href="#contact">Book a Discovery Call</a>
+</div>
+</div>
+</section>
+<!-- OPTIONAL: Lightweight fallback CSS (keep only if your site doesn't already style these classes) -->
+<style>
           .section.pricing { padding: 72px 0; }
           /* .container handled by main.css */
 
@@ -504,506 +433,404 @@
           .btn-outline { background: transparent; color: inherit; }
           .btn-outline:hover { background: rgba(0,0,0,0.05); }
         </style>
-        <!-- end pricing -->
-
-        <!-- testimonials -->
-        <section id="testimonials" class="testimonial__section section-padding">
-            <div class="testimonial__container container">
-                <div class="main__text-container">
-                    <h2 class="heading">What Our Clients Say</h2>
-                    <p class="desc">Don't take our word for it — see what our clients have to say about
+<!-- end pricing -->
+<!-- testimonials -->
+<section class="testimonial__section section-padding" id="testimonials">
+<div class="testimonial__container container">
+<div class="main__text-container">
+<h2 class="heading">What Our Clients Say</h2>
+<p class="desc">Don't take our word for it — see what our clients have to say about
                         our services</p>
-                </div>
-                <div class="content__container">
-                    <div class="testimonials__wrapper">
-                        <div class="header">
-                            <!-- Removed quote as requested -->
-                        </div>
-                        <div class="swiper testimonial-swiper">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <div class="stars mb-8 flex justify-center">
-                                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg></div>
-                                    </div>
-                                    <p class="review">Since hiring a Paragon VA, my daily workload has decreased by half, allowing me to focus on strategy and growth.</p>
-                                    <div class="author-dets">
-                                        <div class="name-container">
-                                            <p class="name">Sarah J.</p>
-                                            <p class="occupation">E-commerce Store Owner</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="stars mb-8 flex justify-center">
-                                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg></div>
-                                    </div>
-                                    <p class="review">I was drowning in administrative tasks until I found Paragon. Now, I have my time back and my business is running smoother than ever.</p>
-                                    <div class="author-dets">
-                                        <div class="name-container">
-                                            <p class="name">Kevin L.</p>
-                                            <p class="occupation">Real Estate Investor</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="swiper-slide">
-                                    <div class="stars mb-8 flex justify-center">
-                                        <div class="flex"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="icon">
-                                                <path
-                                                    d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
-                                                </path>
-                                            </svg></div>
-                                    </div>
-                                    <p class="review">Paragon’s team seamlessly integrated into our workflow, bringing efficiency and professionalism that exceeded our expectations.</p>
-                                    <div class="author-dets">
-                                        <div class="name-container">
-                                            <p class="name">Sarah T.</p>
-                                            <p class="occupation">Marketing Consultant</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="testimonial__nav-container">
-                            <div class="testimonial__nav-wrapper">
-                                <button class="swiper-next-slide nav-btn" aria-label="Previous testimonial"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="icon">
-                                        <path d="m15 18-6-6 6-6"></path>
-                                    </svg>
-                                </button>
-                                <button class="swiper-prev-slide nav-btn" aria-label="Next testimonial"><svg
-                                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" class="icon">
-                                        <path d="m9 18 6-6-6-6"></path>
-                                    </svg>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end testimonials -->
-
-        <!-- faqs -->
-        <section id="faq" class="section-padding">
-            <div class="faq__container container">
-                <div class="main__text-container">
-                    <h2 class="heading">Frequently Asked Questions</h2>
-                    <p class="desc">Everything you need to know about our virtual assistant services
+</div>
+<div class="content__container">
+<div class="testimonials__wrapper">
+<div class="header">
+<!-- Removed quote as requested -->
+</div>
+<div class="swiper testimonial-swiper">
+<div class="swiper-wrapper">
+<div class="swiper-slide">
+<div class="stars mb-8 flex justify-center">
+<div class="flex"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg></div>
+</div>
+<p class="review">Since hiring a Paragon VA, my daily workload has decreased by half, allowing me to focus on strategy and growth.</p>
+<div class="author-dets">
+<div class="name-container">
+<p class="name">Sarah J.</p>
+<p class="occupation">E-commerce Store Owner</p>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="stars mb-8 flex justify-center">
+<div class="flex"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg></div>
+</div>
+<p class="review">I was drowning in administrative tasks until I found Paragon. Now, I have my time back and my business is running smoother than ever.</p>
+<div class="author-dets">
+<div class="name-container">
+<p class="name">Kevin L.</p>
+<p class="occupation">Real Estate Investor</p>
+</div>
+</div>
+</div>
+<div class="swiper-slide">
+<div class="stars mb-8 flex justify-center">
+<div class="flex"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+</path>
+</svg></div>
+</div>
+<p class="review">Paragon’s team seamlessly integrated into our workflow, bringing efficiency and professionalism that exceeded our expectations.</p>
+<div class="author-dets">
+<div class="name-container">
+<p class="name">Sarah T.</p>
+<p class="occupation">Marketing Consultant</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="testimonial__nav-container">
+<div class="testimonial__nav-wrapper">
+<button aria-label="Previous testimonial" class="swiper-next-slide nav-btn"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="m15 18-6-6 6-6"></path>
+</svg>
+</button>
+<button aria-label="Next testimonial" class="swiper-prev-slide nav-btn"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="m9 18 6-6-6-6"></path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="services__section section-padding">
+<div class="container services__container">
+<div class="services__main-text">
+<h2 class="main-heading">
+                Latest from Our Blog
+            </h2>
+</div>
+<div class="services__card-wrapper" style="grid-template-columns: 1fr; margin-top: 40px; display: grid;">
+<div class="services__card" style="max-width: 800px; margin: 0 auto; padding: 40px;">
+<div class="card-header">
+<h3 class="heading" style="font-size: 1.5rem; margin-bottom: 15px;">5 Signs You Need to Hire a Virtual Assistant in 2026</h3>
+</div>
+<div class="card-body">
+<p class="desc" style="font-size: 1.1rem; line-height: 1.6;">
+                        If you're constantly playing catch-up, struggling to focus on high-value work, or watching important tasks slip through the cracks, it might be time to consider hiring a virtual assistant. Here are five clear signs that your business is ready for VA support.
                     </p>
-                </div>
-                <div class="faq__content-container">
-                    <div class="faqs__container">
-                        <div class="faqs__container-inner">
-                            <div class="faqs__wrapper" data-orientation="vertical">
-                                <div data-orientation="vertical" class="faq">
-                                    <h3 data-orientation="vertical" class="title"><button type="button"
-                                            aria-expanded="false" data-orientation="vertical" class="toggler">
-                                            <div class="question-box"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="icon">
-                                                    <circle cx="12" cy="12" r="10"></circle>
-                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                                                    <path d="M12 17h.01"></path>
-                                                </svg><span>What exactly does a virtual assistant do?</span>
-                                            </div>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" class="down-chevron">
-                                                <path d="m6 9 6 6 6-6"></path>
-                                            </svg>
-                                        </button>
-                                    </h3>
-                                    <div data-state="open" id="radix-:r1:" role="region" aria-labelledby="radix-:r0:"
-                                        data-orientation="vertical" class="answer-box">
-                                        <div class="faq-content">Our virtual assistants handle a wide
+<a class="btn" href="/blog/5-signs-you-need-a-virtual-assistant-2026/" style="display: inline-block; margin-top: 25px;">Read More →</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- end testimonials -->
+<!-- faqs -->
+<section class="section-padding" id="faq">
+<div class="faq__container container">
+<div class="main__text-container">
+<h2 class="heading">Frequently Asked Questions</h2>
+<p class="desc">Everything you need to know about our virtual assistant services
+                    </p>
+</div>
+<div class="faq__content-container">
+<div class="faqs__container">
+<div class="faqs__container-inner">
+<div class="faqs__wrapper" data-orientation="vertical">
+<div class="faq" data-orientation="vertical">
+<h3 class="title" data-orientation="vertical"><button aria-expanded="false" class="toggler" data-orientation="vertical" type="button">
+<div class="question-box"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+<path d="M12 17h.01"></path>
+</svg><span>What exactly does a virtual assistant do?</span>
+</div>
+<svg class="down-chevron" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="m6 9 6 6 6-6"></path>
+</svg>
+</button>
+</h3>
+<div aria-labelledby="radix-:r0:" class="answer-box" data-orientation="vertical" data-state="open" id="radix-:r1:" role="region">
+<div class="faq-content">Our virtual assistants handle a wide
                                             range of administrative, creative, and technical tasks remotely. This
                                             includes email management, calendar scheduling, customer service, social
                                             media management, research, data entry, and more—allowing you to focus on
                                             growing your business.</div>
-                                    </div>
-                                </div>
-                                <div data-orientation="vertical" class="faq">
-                                    <h3 data-orientation="vertical" class="title"><button type="button"
-                                            aria-expanded="false" data-orientation="vertical" class="toggler"
-                                            data-radix-collection-item="">
-                                            <div class="question-box"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="icon">
-                                                    <circle cx="12" cy="12" r="10"></circle>
-                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                                                    <path d="M12 17h.01"></path>
-                                                </svg><span>How do I communicate with my virtual assistant?</span></div>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" class="down-chevron">
-                                                <path d="m6 9 6 6 6-6"></path>
-                                            </svg>
-                                        </button></h3>
-                                    <div data-orientation="vertical" class="answer-box">
-                                        <div class="faq-content">
+</div>
+</div>
+<div class="faq" data-orientation="vertical">
+<h3 class="title" data-orientation="vertical"><button aria-expanded="false" class="toggler" data-orientation="vertical" data-radix-collection-item="" type="button">
+<div class="question-box"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+<path d="M12 17h.01"></path>
+</svg><span>How do I communicate with my virtual assistant?</span></div>
+<svg class="down-chevron" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="m6 9 6 6 6-6"></path>
+</svg>
+</button></h3>
+<div class="answer-box" data-orientation="vertical">
+<div class="faq-content">
                                             Communication happens through your preferred channels—email, Slack,
                                             Microsoft Teams, Zoom, or any project management tool you use. We adapt to
                                             your existing workflows to make the transition seamless.
                                         </div>
-                                    </div>
-                                </div>
-                                <div data-orientation="vertical" class="faq">
-                                    <h3 data-orientation="vertical" class="title"><button type="button"
-                                            aria-expanded="false" data-orientation="vertical" class="toggler"
-                                            data-radix-collection-item="">
-                                            <div class="question-box"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="icon">
-                                                    <circle cx="12" cy="12" r="10"></circle>
-                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                                                    <path d="M12 17h.01"></path>
-                                                </svg><span>What if I need assistance outside of regular business
-                                                    hours?</span></div><svg xmlns="http://www.w3.org/2000/svg"
-                                                width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                stroke-linejoin="round" class="down-chevron">
-                                                <path d="m6 9 6 6 6-6"></path>
-                                            </svg>
-                                        </button></h3>
-                                    <div data-orientation="vertical" class="answer-box">
-                                        <div class="faq-content">
+</div>
+</div>
+<div class="faq" data-orientation="vertical">
+<h3 class="title" data-orientation="vertical"><button aria-expanded="false" class="toggler" data-orientation="vertical" data-radix-collection-item="" type="button">
+<div class="question-box"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+<path d="M12 17h.01"></path>
+</svg><span>What if I need assistance outside of regular business
+                                                    hours?</span></div><svg class="down-chevron" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="m6 9 6 6 6-6"></path>
+</svg>
+</button></h3>
+<div class="answer-box" data-orientation="vertical">
+<div class="faq-content">
                                             Our Growth and Pro plans include extended support hours. For specific
                                             time-sensitive needs, we can arrange special coverage—just let us know your
                                             requirements during onboarding.
                                         </div>
-                                    </div>
-                                </div>
-                                <div data-orientation="vertical" class="faq">
-                                    <h3 data-orientation="vertical" data-state="closed" class="title"><button
-                                            type="button" aria-expanded="false" data-orientation="vertical"
-                                            class="toggler" data-radix-collection-item="">
-                                            <div class="question-box"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="icon">
-                                                    <circle cx="12" cy="12" r="10"></circle>
-                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                                                    <path d="M12 17h.01"></path>
-                                                </svg><span>How do you ensure quality and consistency?</span></div><svg
-                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" class="down-chevron">
-                                                <path d="m6 9 6 6 6-6"></path>
-                                            </svg>
-                                        </button></h3>
-                                    <div data-orientation="vertical" class="answer-box">
-                                        <div class="faq-content">
+</div>
+</div>
+<div class="faq" data-orientation="vertical">
+<h3 class="title" data-orientation="vertical" data-state="closed"><button aria-expanded="false" class="toggler" data-orientation="vertical" data-radix-collection-item="" type="button">
+<div class="question-box"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+<path d="M12 17h.01"></path>
+</svg><span>How do you ensure quality and consistency?</span></div><svg class="down-chevron" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="m6 9 6 6 6-6"></path>
+</svg>
+</button></h3>
+<div class="answer-box" data-orientation="vertical">
+<div class="faq-content">
                                             We have a rigorous selection process for our VAs, comprehensive training
                                             programs, and quality assurance protocols. All work goes through review
                                             processes, and we regularly collect feedback to maintain our high standards.
                                         </div>
-                                    </div>
-                                </div>
-                                <div data-orientation="vertical" class="faq">
-                                    <h3 data-orientation="vertical" data-state="closed" class="title"><button
-                                            type="button" aria-controls="radix-:r9:" aria-expanded="false"
-                                            data-state="closed" data-orientation="vertical" id="radix-:r8:"
-                                            class="toggler" data-radix-collection-item="">
-                                            <div class="question-box"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="icon">
-                                                    <circle cx="12" cy="12" r="10"></circle>
-                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                                                    <path d="M12 17h.01"></path>
-                                                </svg><span>What if my assigned VA isn't the right fit?</span></div><svg
-                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" class="down-chevron">
-                                                <path d="m6 9 6 6 6-6"></path>
-                                            </svg>
-                                        </button></h3>
-                                    <div data-orientation="vertical" class="answer-box">
-                                        <div class="faq-content">
+</div>
+</div>
+<div class="faq" data-orientation="vertical">
+<h3 class="title" data-orientation="vertical" data-state="closed"><button aria-controls="radix-:r9:" aria-expanded="false" class="toggler" data-orientation="vertical" data-radix-collection-item="" data-state="closed" id="radix-:r8:" type="button">
+<div class="question-box"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+<path d="M12 17h.01"></path>
+</svg><span>What if my assigned VA isn't the right fit?</span></div><svg class="down-chevron" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="m6 9 6 6 6-6"></path>
+</svg>
+</button></h3>
+<div class="answer-box" data-orientation="vertical">
+<div class="faq-content">
                                             We want you to be completely satisfied with your VA. If you feel your
                                             current assistant isn't the right match, we'll find a replacement at no
                                             additional cost during the first 30 days of service.
                                         </div>
-                                    </div>
-                                </div>
-                                <div data-orientation="vertical" class="faq">
-                                    <h3 data-orientation="vertical" data-state="closed" class="title"><button
-                                            type="button" aria-controls="radix-:rb:" aria-expanded="false"
-                                            data-state="closed" data-orientation="vertical" id="radix-:ra:"
-                                            class="toggler" data-radix-collection-item="">
-                                            <div class="question-box"><svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                    height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="icon">
-                                                    <circle cx="12" cy="12" r="10"></circle>
-                                                    <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
-                                                    <path d="M12 17h.01"></path>
-                                                </svg><span>Can I increase or decrease my hours as needed?</span></div>
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round" class="down-chevron">
-                                                <path d="m6 9 6 6 6-6"></path>
-                                            </svg>
-                                        </button></h3>
-                                    <div data-orientation="vertical" class="answer-box">
-                                        <div class="faq-content">
+</div>
+</div>
+<div class="faq" data-orientation="vertical">
+<h3 class="title" data-orientation="vertical" data-state="closed"><button aria-controls="radix-:rb:" aria-expanded="false" class="toggler" data-orientation="vertical" data-radix-collection-item="" data-state="closed" id="radix-:ra:" type="button">
+<div class="question-box"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<circle cx="12" cy="12" r="10"></circle>
+<path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+<path d="M12 17h.01"></path>
+</svg><span>Can I increase or decrease my hours as needed?</span></div>
+<svg class="down-chevron" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="m6 9 6 6 6-6"></path>
+</svg>
+</button></h3>
+<div class="answer-box" data-orientation="vertical">
+<div class="faq-content">
                                             Absolutely! We understand business needs fluctuate. You can adjust your plan
                                             monthly, scaling up during busy periods or scaling down when things are
                                             quieter.
                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="help__text-container">
-                    <p class="text">Have more questions? We're here to help!</p><a href="#contact" class="link">Contact
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="help__text-container">
+<p class="text">Have more questions? We're here to help!</p><a class="link" href="#contact">Contact
                         us for more information</a>
-                </div>
-            </div>
-        </section>
-        <!-- end faqs -->
-
-        <!-- contact -->
-        <section id="contact" class="section-padding contact__section">
-            <div class="contact__container container">
-                <div class="main__text-container">
-                    <h2 class="heading">Ready to Delegate and Scale?</h2>
-                    <p class="desc">
+</div>
+</div>
+</section>
+<!-- end faqs -->
+<!-- contact -->
+<section class="section-padding contact__section" id="contact">
+<div class="contact__container container">
+<div class="main__text-container">
+<h2 class="heading">Ready to Delegate and Scale?</h2>
+<p class="desc">
                         Book a free discovery call today and learn how Paragon Virtual Assistants can support your goals.
                     </p>
-                </div>
-                <div class="box__wrapper">
-                    <div class="contact__box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" class="icon">
-                            <rect width="20" height="16" x="2" y="4" rx="2"></rect>
-                            <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-                        </svg>
-                        <h3 class="heading">Contact Us</h3>
-                        <p class="desc">Fill out our quick form and we'll get back to you within 24 hours
+</div>
+<div class="box__wrapper">
+<div class="contact__box"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<rect height="16" rx="2" width="20" x="2" y="4"></rect>
+<path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+</svg>
+<h3 class="heading">Contact Us</h3>
+<p class="desc">Fill out our quick form and we'll get back to you within 24 hours
                             to discuss your needs.</p>
-                        <p class="desc"><a href="mailto:info@hireparagonva.com"
-                                class="text-paragon-400 hover:text-white transition-colors">info@hireparagonva.com</a>
-                        </p>
-                        <a href="/contact.html" class="btn">
+<p class="desc"><a class="text-paragon-400 hover:text-white transition-colors" href="mailto:info@hireparagonva.com">info@hireparagonva.com</a>
+</p>
+<a class="btn" href="/contact.html">
                             Contact Form
                         </a>
-                    </div>
-                    <div class="contact__box"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" class="icon">
-                            <path d="M8 2v4"></path>
-                            <path d="M16 2v4"></path>
-                            <rect width="18" height="18" x="3" y="4" rx="2"></rect>
-                            <path d="M3 10h18"></path>
-                        </svg>
-                        <h3 class="heading">Schedule My Call</h3>
-                        <p class="desc">Schedule a 15-minute call with our team to explore how we can help
+</div>
+<div class="contact__box"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 2v4"></path>
+<path d="M16 2v4"></path>
+<rect height="18" rx="2" width="18" x="3" y="4"></rect>
+<path d="M3 10h18"></path>
+</svg>
+<h3 class="heading">Schedule My Call</h3>
+<p class="desc">Schedule a 15-minute call with our team to explore how we can help
                             your business.
                         </p>
-                        <a href="https://calendly.com/hireparagonva-info" target="_blank" rel="noopener noreferrer" class="btn">Book on
+<a class="btn" href="https://calendly.com/hireparagonva-info" rel="noopener noreferrer" target="_blank">Book on
                             Calendly</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end contact -->
-
-        <!-- footer -->
-        <footer class="footer">
-            <div class="footer__container container">
-                <div class="footer__wrapper">
-                    <div class="branding__wrapper">
-                        <div class="footer__logo-wrapper">
-                            <span class="logo">Paragon</span>
-                            <span class="slogan">VA</span>
-                        </div>
-                        <p class="branding-text">Professional virtual assistance services tailored to help
+</div>
+</div>
+</div>
+</section>
+<!-- end contact -->
+<!-- footer -->
+<footer class="footer">
+<div class="footer__container container">
+<div class="footer__wrapper">
+<div class="branding__wrapper">
+<div class="footer__logo-wrapper">
+<span class="logo">Paragon</span>
+<span class="slogan">VA</span>
+</div>
+<p class="branding-text">Professional virtual assistance services tailored to help
                             your business grow and succeed.</p>
-                        <p class="branding-text">
-                            265 Franklin Street<br>
+<p class="branding-text">
+                            265 Franklin Street<br/>
                             Boston, MA 02110
                         </p>
-                        <div class="mail-field">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="icon">
-                                <rect width="20" height="16" x="2" y="4" rx="2"></rect>
-                                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
-                            </svg>
-                            <a href="mailto:info@hireparagonva.com"
-                                class="address text-gray-400 hover:text-white transition-colors">info@hireparagonva.com</a>
-                        </div>
-                        <div class="social-icons-wrapper">
-                            <a href="https://instagram.com/hireparagonva" target="_blank" rel="noopener noreferrer"
-                                class="social-icon" aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg"
-                                    width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
-                                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
-                                </svg>
-                            </a>
-                            <a href="https://www.linkedin.com/company/linkedin.com-hireparagonva" target="_blank" rel="noopener noreferrer" class="social-icon"
-                                aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                    <path
-                                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
-                                    </path>
-                                    <rect width="4" height="12" x="2" y="9"></rect>
-                                    <circle cx="4" cy="4" r="2"></circle>
-                                </svg>
-                            </a>
-                            <a href="https://x.com/hireparagonva" target="_blank" rel="noopener noreferrer" class="social-icon"
-                                aria-label="Twitter"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" class="icon">
-                                    <path
-                                        d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
-                                    </path>
-                                </svg>
-                            </a>
-                            <a href="https://www.facebook.com/profile.php?id=61578851708388" target="_blank" rel="noopener noreferrer" class="social-icon"
-                                aria-label="Facebook">
-                                <svg width="27" height="28" viewBox="0 0 24 25" fill="none" stroke="currentColor" class="icon" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 2.53906C17.5229 2.53906 22 7.01621 22 12.5391C22 17.5304 18.3431 21.6674 13.5625 22.4176V15.4297H15.8926L16.3359 12.5391L13.5625 12.5387V10.6632C13.5625 10.657 13.5625 10.6509 13.5626 10.6447C13.5626 10.6354 13.5628 10.6262 13.5629 10.6169C13.578 9.84259 13.9742 9.10156 15.1921 9.10156H16.4531V6.64062C16.4531 6.64062 15.3087 6.44492 14.2146 6.44492C11.966 6.44492 10.4842 7.78652 10.4386 10.2193C10.4379 10.2578 10.4375 10.2965 10.4375 10.3355V12.5387H7.89844V15.4293L10.4375 15.4297V22.4172C5.65686 21.667 2 17.5304 2 12.5391C2 7.01621 6.47715 2.53906 12 2.53906Z" fill="#323544"/>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="footer__nav-links">
-                        <h3 class="heading">Services</h3>
-                        <ul class="list">
-                            <li><a href="#services" class="list-item">E-commerce
+<div class="mail-field">
+<svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<rect height="16" rx="2" width="20" x="2" y="4"></rect>
+<path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+</svg>
+<a class="address text-gray-400 hover:text-white transition-colors" href="mailto:info@hireparagonva.com">info@hireparagonva.com</a>
+</div>
+<div class="social-icons-wrapper">
+<a aria-label="Instagram" class="social-icon" href="https://instagram.com/hireparagonva" rel="noopener noreferrer" target="_blank"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect>
+<path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+<line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+</svg>
+</a>
+<a aria-label="LinkedIn" class="social-icon" href="https://www.linkedin.com/company/linkedin.com-hireparagonva" rel="noopener noreferrer" target="_blank"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+</path>
+<rect height="12" width="4" x="2" y="9"></rect>
+<circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+<a aria-label="Twitter" class="social-icon" href="https://x.com/hireparagonva" rel="noopener noreferrer" target="_blank"><svg class="icon" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z">
+</path>
+</svg>
+</a>
+<a aria-label="Facebook" class="social-icon" href="https://www.facebook.com/profile.php?id=61578851708388" rel="noopener noreferrer" target="_blank">
+<svg class="icon" fill="none" height="28" stroke="currentColor" viewbox="0 0 24 25" width="27" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2.53906C17.5229 2.53906 22 7.01621 22 12.5391C22 17.5304 18.3431 21.6674 13.5625 22.4176V15.4297H15.8926L16.3359 12.5391L13.5625 12.5387V10.6632C13.5625 10.657 13.5625 10.6509 13.5626 10.6447C13.5626 10.6354 13.5628 10.6262 13.5629 10.6169C13.578 9.84259 13.9742 9.10156 15.1921 9.10156H16.4531V6.64062C16.4531 6.64062 15.3087 6.44492 14.2146 6.44492C11.966 6.44492 10.4842 7.78652 10.4386 10.2193C10.4379 10.2578 10.4375 10.2965 10.4375 10.3355V12.5387H7.89844V15.4293L10.4375 15.4297V22.4172C5.65686 21.667 2 17.5304 2 12.5391C2 7.01621 6.47715 2.53906 12 2.53906Z" fill="#323544"></path>
+</svg>
+</a>
+</div>
+</div>
+<div class="footer__nav-links">
+<h3 class="heading">Services</h3>
+<ul class="list">
+<li><a class="list-item" href="#services">E-commerce
                                     Support</a></li>
-                            <li><a href="#services" class="list-item">Executive
+<li><a class="list-item" href="#services">Executive
                                     Assistance</a></li>
-                            <li><a href="#services" class="list-item">Social
+<li><a class="list-item" href="#services">Social
                                     Media Management</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer__nav-links">
-                        <h3 class="heading">Quick Links</h3>
-                        <ul class="list">
-                            <li><a href="#about" class="list-item">About</a></li>
-                            <li><a href="#pricing" class="list-item">Pricing</a>
-                            </li>
-                            <li><a href="#testimonials" class="list-item">Testimonials</a></li>
-                            <li><a href="#contact" class="list-item">Contact</a>
-                            </li>
-                            <li><a href="https://calendly.com/hireparagonva-info" target="_blank" rel="noopener noreferrer"
-                                    class="list-item">Book a Call</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="copyright__text">
-                    <p>© 2026 Paragon Virtual Assistants. All rights reserved.</p>
-                </div>
-            </div>
-        </footer>
-        <!-- end footer -->
-    </main>
-    <!-- end main -->
-
-    <!-- scripts -->
-     <script defer src="./assets/js/swiper.min.js"></script>
-    <script defer src="./assets/js/main.js"></script>
+</ul>
+</div>
+<div class="footer__nav-links">
+<h3 class="heading">Quick Links</h3>
+<ul class="list">
+<li><a class="list-item" href="#about">About</a></li>
+<li><a class="list-item" href="#pricing">Pricing</a>
+</li>
+<li><a class="list-item" href="#testimonials">Testimonials</a></li>
+<li><a class="list-item" href="#contact">Contact</a>
+</li>
+<li><a class="list-item" href="https://calendly.com/hireparagonva-info" rel="noopener noreferrer" target="_blank">Book a Call</a></li>
+</ul>
+</div>
+</div>
+<div class="copyright__text">
+<p>© 2026 Paragon Virtual Assistants. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<!-- end footer -->
+</main>
+<!-- end main -->
+<!-- scripts -->
+<script defer="" src="./assets/js/swiper.min.js"></script>
+<script defer="" src="./assets/js/main.js"></script>
 </body>
-
 </html>
